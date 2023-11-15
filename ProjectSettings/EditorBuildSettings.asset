@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/AR.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Start Menu.unity
+    path: Assets/Scenes/Beranda.unity
     guid: f6aa05db24fa24d4c9c3041128197c1d
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
