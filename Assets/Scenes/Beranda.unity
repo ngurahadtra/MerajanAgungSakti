@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 6457789}
   - component: {fileID: 6457788}
   - component: {fileID: 6457787}
+  - component: {fileID: 6457790}
+  - component: {fileID: 6457791}
   m_Layer: 5
   m_Name: keluar btn
   m_TagString: Untagged
@@ -206,6 +208,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 6457790}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1837484893}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -256,6 +270,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6457785}
   m_CullTransparentMesh: 1
+--- !u!114 &6457790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6457785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &6457791
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6457785}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &28709469
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +476,8 @@ GameObject:
   - component: {fileID: 39550011}
   - component: {fileID: 39550010}
   - component: {fileID: 39550009}
+  - component: {fileID: 39550012}
+  - component: {fileID: 39550013}
   m_Layer: 5
   m_Name: kanan btn
   m_TagString: Untagged
@@ -505,6 +549,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 39550012}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 882898068}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -567,6 +623,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39550007}
   m_CullTransparentMesh: 1
+--- !u!114 &39550012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39550007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &39550013
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39550007}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &114250529
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,6 +663,8 @@ GameObject:
   - component: {fileID: 114250533}
   - component: {fileID: 114250532}
   - component: {fileID: 114250531}
+  - component: {fileID: 114250535}
+  - component: {fileID: 114250534}
   m_Layer: 5
   m_Name: instagram
   m_TagString: Untagged
@@ -650,6 +736,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 114250535}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 38256187}
         m_TargetAssemblyTypeName: Hubungi, Assembly-CSharp
         m_MethodName: BukaInstagram
@@ -700,6 +798,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114250529}
   m_CullTransparentMesh: 1
+--- !u!111 &114250534
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114250529}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &114250535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114250529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &158855020
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +918,82 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &165296028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165296029}
+  - component: {fileID: 165296031}
+  - component: {fileID: 165296030}
+  m_Layer: 5
+  m_Name: ornamen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &165296029
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165296028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1212658196}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 30, y: 42}
+  m_SizeDelta: {x: -157.69987, y: -144.89996}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &165296030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165296028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c96ee6c633cc8da428729b2f27adcc80, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &165296031
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165296028}
+  m_CullTransparentMesh: 1
 --- !u!1 &176800949
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,6 +1083,8 @@ GameObject:
   - component: {fileID: 205239014}
   - component: {fileID: 205239013}
   - component: {fileID: 205239012}
+  - component: {fileID: 205239015}
+  - component: {fileID: 205239016}
   m_Layer: 5
   m_Name: yes btn
   m_TagString: Untagged
@@ -952,10 +1156,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212658197}
-        m_TargetAssemblyTypeName: startmenu, Assembly-CSharp
-        m_MethodName: exit
-        m_Mode: 1
+      - m_Target: {fileID: 205239015}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1002,6 +1206,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205239010}
   m_CullTransparentMesh: 1
+--- !u!114 &205239015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205239010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &205239016
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205239010}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &270525750
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1349,8 @@ GameObject:
   - component: {fileID: 468718839}
   - component: {fileID: 468718838}
   - component: {fileID: 468718837}
+  - component: {fileID: 468718841}
+  - component: {fileID: 468718840}
   m_Layer: 5
   m_Name: line
   m_TagString: Untagged
@@ -1200,6 +1434,18 @@ MonoBehaviour:
           m_StringArgument: ngurah05..
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 468718841}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &468718838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1238,6 +1484,110 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468718835}
   m_CullTransparentMesh: 1
+--- !u!111 &468718840
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468718835}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &468718841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468718835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &477550857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 477550858}
+  - component: {fileID: 477550860}
+  - component: {fileID: 477550859}
+  m_Layer: 5
+  m_Name: padangsambian
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &477550858
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477550857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1212658196}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 32.49994, y: -12}
+  m_SizeDelta: {x: -653.5999, y: -655.44995}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &477550859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477550857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4293c3738a5e8b84cbd2ba9dbf405217, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &477550860
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477550857}
+  m_CullTransparentMesh: 1
 --- !u!1 &498232823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,6 +1600,8 @@ GameObject:
   - component: {fileID: 498232827}
   - component: {fileID: 498232826}
   - component: {fileID: 498232825}
+  - component: {fileID: 498232829}
+  - component: {fileID: 498232828}
   m_Layer: 5
   m_Name: facebook
   m_TagString: Untagged
@@ -1333,6 +1685,18 @@ MonoBehaviour:
           m_StringArgument: ngurah.adiputra.925
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 498232829}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &498232826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1371,6 +1735,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498232823}
   m_CullTransparentMesh: 1
+--- !u!111 &498232828
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498232823}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &498232829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498232823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &537940862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,7 +1776,7 @@ GameObject:
   - component: {fileID: 537940865}
   - component: {fileID: 537940864}
   - component: {fileID: 537940868}
-  - component: {fileID: 537940869}
+  - component: {fileID: 537940867}
   m_Layer: 5
   m_Name: keluar
   m_TagString: Untagged
@@ -1431,7 +1823,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1456,10 +1848,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 176800949}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 537940868}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1468,10 +1860,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 537940869}
-        m_TargetAssemblyTypeName: AnimasiTombol, Assembly-CSharp
-        m_MethodName: Animasi
-        m_Mode: 1
+      - m_Target: {fileID: 176800949}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1518,7 +1910,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537940862}
   m_CullTransparentMesh: 1
---- !u!111 &537940868
+--- !u!111 &537940867
 Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1527,14 +1919,14 @@ Animation:
   m_GameObject: {fileID: 537940862}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &537940869
+--- !u!114 &537940868
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1543,7 +1935,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 537940862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5786256432bf2d94085d4b83bcf37165, type: 3}
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &607360532
@@ -1558,6 +1950,8 @@ GameObject:
   - component: {fileID: 607360536}
   - component: {fileID: 607360535}
   - component: {fileID: 607360534}
+  - component: {fileID: 607360537}
+  - component: {fileID: 607360538}
   m_Layer: 5
   m_Name: no btn
   m_TagString: Untagged
@@ -1629,6 +2023,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 607360537}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 176800949}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -1679,6 +2085,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607360532}
   m_CullTransparentMesh: 1
+--- !u!114 &607360537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607360532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &607360538
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607360532}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &649614477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,6 +2125,8 @@ GameObject:
   - component: {fileID: 649614481}
   - component: {fileID: 649614480}
   - component: {fileID: 649614479}
+  - component: {fileID: 649614483}
+  - component: {fileID: 649614482}
   m_Layer: 5
   m_Name: email
   m_TagString: Untagged
@@ -1762,6 +2198,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 649614483}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 38256187}
         m_TargetAssemblyTypeName: Hubungi, Assembly-CSharp
         m_MethodName: BukaEmail
@@ -1812,6 +2260,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649614477}
   m_CullTransparentMesh: 1
+--- !u!111 &649614482
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649614477}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &649614483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649614477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &653744481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,6 +2300,8 @@ GameObject:
   - component: {fileID: 653744485}
   - component: {fileID: 653744484}
   - component: {fileID: 653744483}
+  - component: {fileID: 653744486}
+  - component: {fileID: 653744487}
   m_Layer: 5
   m_Name: kiri btn
   m_TagString: Untagged
@@ -1895,6 +2373,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 653744486}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 28709469}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -1957,6 +2447,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653744481}
   m_CullTransparentMesh: 1
+--- !u!114 &653744486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653744481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &653744487
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653744481}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &727247086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,7 +2485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 727247089}
   - component: {fileID: 727247088}
-  - component: {fileID: 727247087}
+  - component: {fileID: 727247090}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1975,26 +2493,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &727247087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727247086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &727247088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2025,6 +2523,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &727247090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727247086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &775903496
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,6 +2576,8 @@ GameObject:
   - component: {fileID: 775903500}
   - component: {fileID: 775903499}
   - component: {fileID: 775903498}
+  - component: {fileID: 775903501}
+  - component: {fileID: 775903502}
   m_Layer: 5
   m_Name: sound off
   m_TagString: Untagged
@@ -2108,6 +2649,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 775903501}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 775903496}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -2129,18 +2682,6 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1212658197}
-        m_TargetAssemblyTypeName: startmenu, Assembly-CSharp
-        m_MethodName: sound_volume
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 1
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -2182,6 +2723,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775903496}
   m_CullTransparentMesh: 1
+--- !u!114 &775903501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775903496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &775903502
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775903496}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &808372089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,6 +2763,8 @@ GameObject:
   - component: {fileID: 808372093}
   - component: {fileID: 808372092}
   - component: {fileID: 808372091}
+  - component: {fileID: 808372095}
+  - component: {fileID: 808372094}
   m_Layer: 5
   m_Name: telegram
   m_TagString: Untagged
@@ -2277,6 +2848,18 @@ MonoBehaviour:
           m_StringArgument: rehadier
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 808372095}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &808372092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2315,6 +2898,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808372089}
   m_CullTransparentMesh: 1
+--- !u!111 &808372094
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808372089}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &808372095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808372089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &817595838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,6 +2938,8 @@ GameObject:
   - component: {fileID: 817595842}
   - component: {fileID: 817595841}
   - component: {fileID: 817595840}
+  - component: {fileID: 817595843}
+  - component: {fileID: 817595844}
   m_Layer: 5
   m_Name: info
   m_TagString: Untagged
@@ -2398,6 +3011,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 817595843}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1837484893}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -2448,6 +3073,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817595838}
   m_CullTransparentMesh: 1
+--- !u!114 &817595843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817595838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &817595844
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817595838}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &882898068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,6 +3577,8 @@ GameObject:
   - component: {fileID: 1079208826}
   - component: {fileID: 1079208825}
   - component: {fileID: 1079208824}
+  - component: {fileID: 1079208827}
+  - component: {fileID: 1079208828}
   m_Layer: 5
   m_Name: sound on
   m_TagString: Untagged
@@ -2995,6 +3650,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1079208827}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1079208822}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -3011,18 +3678,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1212658197}
-        m_TargetAssemblyTypeName: startmenu, Assembly-CSharp
-        m_MethodName: sound_volume
-        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3069,6 +3724,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079208822}
   m_CullTransparentMesh: 1
+--- !u!114 &1079208827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079208822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &1079208828
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079208822}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1146961286
 GameObject:
   m_ObjectHideFlags: 0
@@ -3081,6 +3764,8 @@ GameObject:
   - component: {fileID: 1146961290}
   - component: {fileID: 1146961289}
   - component: {fileID: 1146961288}
+  - component: {fileID: 1146961292}
+  - component: {fileID: 1146961291}
   m_Layer: 5
   m_Name: whatshapp
   m_TagString: Untagged
@@ -3152,6 +3837,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1146961292}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 38256187}
         m_TargetAssemblyTypeName: Hubungi, Assembly-CSharp
         m_MethodName: KirimWhatsapp
@@ -3202,6 +3899,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146961286}
   m_CullTransparentMesh: 1
+--- !u!111 &1146961291
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146961286}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &1146961292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146961286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1212658192
 GameObject:
   m_ObjectHideFlags: 0
@@ -3214,7 +3939,6 @@ GameObject:
   - component: {fileID: 1212658195}
   - component: {fileID: 1212658194}
   - component: {fileID: 1212658193}
-  - component: {fileID: 1212658197}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3297,7 +4021,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 920304636}
+  - {fileID: 165296029}
   - {fileID: 1825248845}
+  - {fileID: 477550858}
+  - {fileID: 1217158542}
   - {fileID: 1957931374}
   - {fileID: 1459062458}
   - {fileID: 1415270305}
@@ -3316,18 +4043,82 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1212658197
+--- !u!1 &1217158541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217158542}
+  - component: {fileID: 1217158544}
+  - component: {fileID: 1217158543}
+  m_Layer: 5
+  m_Name: pemecutan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1217158542
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217158541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1212658196}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 30, y: -76.95003}
+  m_SizeDelta: {x: -730.10004, y: -665.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1217158543
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1212658192}
+  m_GameObject: {fileID: 1217158541}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 148133cac358d9d43a4b5e26a18726db, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4c02f418d6e70ca4cafacf58987f60bd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1217158544
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217158541}
+  m_CullTransparentMesh: 1
 --- !u!1 &1233696683
 GameObject:
   m_ObjectHideFlags: 0
@@ -3340,6 +4131,8 @@ GameObject:
   - component: {fileID: 1233696687}
   - component: {fileID: 1233696686}
   - component: {fileID: 1233696685}
+  - component: {fileID: 1233696688}
+  - component: {fileID: 1233696689}
   m_Layer: 5
   m_Name: email
   m_TagString: Untagged
@@ -3411,6 +4204,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1233696688}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 38256183}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -3461,6 +4266,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233696683}
   m_CullTransparentMesh: 1
+--- !u!114 &1233696688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233696683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &1233696689
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233696683}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1282062648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3520,6 +4353,8 @@ GameObject:
   - component: {fileID: 1348061284}
   - component: {fileID: 1348061283}
   - component: {fileID: 1348061282}
+  - component: {fileID: 1348061286}
+  - component: {fileID: 1348061287}
   m_Layer: 5
   m_Name: menu btn open
   m_TagString: Untagged
@@ -3571,6 +4406,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1348061286}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1017791773}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -3665,6 +4512,34 @@ RectTransform:
   m_AnchoredPosition: {x: 17, y: -103.1}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1348061286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348061281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &1348061287
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348061281}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1415270304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3703,8 +4578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -158.99998, y: -172.99998}
-  m_SizeDelta: {x: 115, y: 115}
+  m_AnchoredPosition: {x: -155, y: -222.99997}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!111 &1415270306
 Animation:
@@ -3715,7 +4590,7 @@ Animation:
   m_GameObject: {fileID: 1415270304}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
   m_WrapMode: 0
@@ -3731,7 +4606,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1415270304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5786256432bf2d94085d4b83bcf37165, type: 3}
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1415270308
@@ -3778,22 +4653,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212658197}
-        m_TargetAssemblyTypeName: startmenu, Assembly-CSharp
-        m_MethodName: play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: AR
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1415270307}
-        m_TargetAssemblyTypeName: AnimasiTombol, Assembly-CSharp
-        m_MethodName: Animasi
-        m_Mode: 1
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3852,6 +4715,8 @@ GameObject:
   - component: {fileID: 1423371606}
   - component: {fileID: 1423371605}
   - component: {fileID: 1423371604}
+  - component: {fileID: 1423371608}
+  - component: {fileID: 1423371607}
   m_Layer: 5
   m_Name: tiktok
   m_TagString: Untagged
@@ -3923,6 +4788,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1423371608}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 38256187}
         m_TargetAssemblyTypeName: Hubungi, Assembly-CSharp
         m_MethodName: BukaTikTok
@@ -3973,6 +4850,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423371602}
   m_CullTransparentMesh: 1
+--- !u!111 &1423371607
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423371602}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &1423371608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423371602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1459062457
 GameObject:
   m_ObjectHideFlags: 0
@@ -4011,8 +4916,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 170.00002, y: -172.99998}
-  m_SizeDelta: {x: 115, y: 115}
+  m_AnchoredPosition: {x: 222, y: -222.99997}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!111 &1459062459
 Animation:
@@ -4023,7 +4928,7 @@ Animation:
   m_GameObject: {fileID: 1459062457}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
   m_WrapMode: 0
@@ -4039,7 +4944,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1459062457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5786256432bf2d94085d4b83bcf37165, type: 3}
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1459062461
@@ -4086,22 +4991,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1212658197}
-        m_TargetAssemblyTypeName: startmenu, Assembly-CSharp
-        m_MethodName: play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: AR
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1459062460}
-        m_TargetAssemblyTypeName: AnimasiTombol, Assembly-CSharp
-        m_MethodName: Animasi
-        m_Mode: 1
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4267,6 +5160,8 @@ GameObject:
   - component: {fileID: 1701115534}
   - component: {fileID: 1701115533}
   - component: {fileID: 1701115532}
+  - component: {fileID: 1701115536}
+  - component: {fileID: 1701115535}
   m_Layer: 5
   m_Name: keluar btn
   m_TagString: Untagged
@@ -4338,6 +5233,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1701115536}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 38256183}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -4388,6 +5295,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701115530}
   m_CullTransparentMesh: 1
+--- !u!111 &1701115535
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701115530}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &1701115536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701115530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1808514964
 GameObject:
   m_ObjectHideFlags: 0
@@ -4476,7 +5411,7 @@ GameObject:
   - component: {fileID: 1825248847}
   - component: {fileID: 1825248846}
   m_Layer: 5
-  m_Name: konten
+  m_Name: judul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4491,7 +5426,7 @@ RectTransform:
   m_GameObject: {fileID: 1825248844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.81, y: 0.81, z: 0.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1212658196}
@@ -4499,8 +5434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 18, y: -7}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 28.749985, y: 152}
+  m_SizeDelta: {x: -419.90002, y: -388.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1825248846
 MonoBehaviour:
@@ -4522,9 +5457,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b3f83af9c80f42b41aace11c8dfbbe24, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4875d636be3b71f4f84d05859a6c630f, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -4655,7 +5590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -173}
+  m_AnchoredPosition: {x: 37, y: -223}
   m_SizeDelta: {x: 190, y: 190}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957931375
@@ -4962,6 +5897,8 @@ GameObject:
   - component: {fileID: 2139150681}
   - component: {fileID: 2139150680}
   - component: {fileID: 2139150679}
+  - component: {fileID: 2139150682}
+  - component: {fileID: 2139150683}
   m_Layer: 5
   m_Name: menu btn close
   m_TagString: Untagged
@@ -5033,6 +5970,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 2139150682}
+        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+        m_MethodName: AnimasiDanPindah
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1017791773}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -5107,3 +6056,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139150677}
   m_CullTransparentMesh: 1
+--- !u!114 &2139150682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139150677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!111 &2139150683
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139150677}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
