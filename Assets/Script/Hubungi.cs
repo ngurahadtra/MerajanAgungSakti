@@ -38,4 +38,9 @@ public class Hubungi : MonoBehaviour
     {
         Application.OpenURL("line://ti/p/~" + lineID);
     }
+
+    public void BukaGoogleMaps(string googleMapsUrl)
+    {
+        Application.OpenURL(googleMapsUrl);
+    }
 }

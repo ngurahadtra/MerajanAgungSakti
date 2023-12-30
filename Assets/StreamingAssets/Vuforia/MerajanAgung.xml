@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <ImageTarget name="2" size="100.000000 141.451614" />
+    <ImageTarget name="Utama_Mandala" size="0.210000 0.297048" />
+    <ImageTarget name="Madya_Mandala" size="0.210000 0.297048" />
+    <ImageTarget name="Nista_Mandala" size="0.210000 0.297048" />
+    <ImageTarget name="31-Bale_Kulkul" size="0.210000 0.297048" />
+    <ImageTarget name="30-Bale_Gong_Jaba" size="0.210000 0.297048" />
+    <ImageTarget name="29-Piasan" size="0.210000 0.297048" />
+    <ImageTarget name="28-Ratu_Ngurah_Ebuh" size="0.210000 0.297048" />
+    <ImageTarget name="27-Aling-Aling" size="0.210000 0.297048" />
+    <ImageTarget name="26-Wisnu" size="0.210000 0.297048" />
+    <ImageTarget name="25-Ratu_Gede_Gangga" size="0.210000 0.297048" />
+    <ImageTarget name="24-Pewaregan" size="0.210000 0.297048" />
+    <ImageTarget name="23-Bale_Pesanekan" size="0.210000 0.297048" />
+    <ImageTarget name="22-Piasan" size="0.210000 0.297048" />
+    <ImageTarget name="21-Betara_Nini" size="0.210000 0.297048" />
+    <ImageTarget name="20-Bale_Pemangku" size="0.210000 0.297048" />
+    <ImageTarget name="19-Pelik_Sari_Kauh" size="0.210000 0.297048" />
+    <ImageTarget name="18-Pelik_Sari_Kangin" size="0.210000 0.297048" />
+    <ImageTarget name="17-Pengayatan_Pura_Sakenen" size="0.210000 0.297048" />
+    <ImageTarget name="16-Pengayatan_Pura_Uluwatu" size="0.210000 0.297048" />
+    <ImageTarget name="15-Manjang_Sakaluang" size="0.210000 0.297048" />
+    <ImageTarget name="14-Pengayatan_Pura_Batukaru" size="0.210000 0.297048" />
+    <ImageTarget name="13-Taksu_Agung" size="0.210000 0.297048" />
+    <ImageTarget name="12-Bale_Piasan" size="0.210000 0.297048" />
+    <ImageTarget name="11-Bale_Banten" size="0.210000 0.297048" />
+    <ImageTarget name="10-Bale_Pangrauhan" size="0.210000 0.297048" />
+    <ImageTarget name="9-Bale_Gong" size="0.210000 0.297048" />
+    <ImageTarget name="8-Bale_Pelawatan" size="0.210000 0.297048" />
+    <ImageTarget name="7-Kemulan" size="0.210000 0.297048" />
+    <ImageTarget name="6-Hyang_Ibu" size="0.210000 0.297048" />
+    <ImageTarget name="5-Ratu_Anom" size="0.210000 0.297048" />
+    <ImageTarget name="4-Gedong_Kunci" size="0.210000 0.297048" />
+    <ImageTarget name="3-Pengayatan_Kahyangan_Tiga" size="0.210000 0.297048" />
+    <ImageTarget name="2-Meru_Tumpang_Tiga" size="0.210000 0.297048" />
+    <ImageTarget name="1-Padmasana" size="0.210000 0.297048" />
   </Tracking>
 </QCARConfig>

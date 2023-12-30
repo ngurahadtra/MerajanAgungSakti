@@ -134,8 +134,9 @@ GameObject:
   - component: {fileID: 4739704}
   - component: {fileID: 4739706}
   - component: {fileID: 4739705}
+  - component: {fileID: 4739707}
   m_Layer: 5
-  m_Name: konten
+  m_Name: ModeAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,10 +157,10 @@ RectTransform:
   m_Father: {fileID: 1239651199}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 226}
-  m_SizeDelta: {x: -1096, y: 87}
+  m_AnchorMin: {x: 0.36312503, y: 0.6977778}
+  m_AnchorMax: {x: 0.64071864, y: 0.921889}
+  m_AnchoredPosition: {x: -2.5, y: 3}
+  m_SizeDelta: {x: -173, y: -75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4739705
 MonoBehaviour:
@@ -199,6 +200,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4739703}
   m_CullTransparentMesh: 1
+--- !u!95 &4739707
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4739703}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b83ad1b40bc5baa4e9b5d2e53445be87, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &109766626
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,9 +419,9 @@ GameObject:
   - component: {fileID: 568868438}
   - component: {fileID: 568868437}
   - component: {fileID: 568868436}
-  - component: {fileID: 568868435}
-  - component: {fileID: 568868434}
+  - component: {fileID: 568868440}
   - component: {fileID: 568868439}
+  - component: {fileID: 568868441}
   m_Layer: 5
   m_Name: Buku AR
   m_TagString: Untagged
@@ -427,38 +449,6 @@ RectTransform:
   m_AnchoredPosition: {x: -2.5, y: 0.5}
   m_SizeDelta: {x: 1.5999756, y: 1.199997}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &568868434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568868432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 568868439}
-  animasiAwal: BukuAR
-  animasiKlik: AnimasiKlik
---- !u!111 &568868435
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568868432}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
-  - {fileID: 7400000, guid: bf7c879e6df7a5c4d969225677504448, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &568868436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -503,7 +493,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 568868434}
+      - m_Target: {fileID: 568868439}
         m_TargetAssemblyTypeName: AnimasiScene, Assembly-CSharp
         m_MethodName: AnimasiDanPindah
         m_Mode: 5
@@ -512,7 +502,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Beranda
+          m_StringArgument: BukuAR
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &568868437
@@ -553,7 +543,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568868432}
   m_CullTransparentMesh: 1
---- !u!95 &568868439
+--- !u!114 &568868439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568868432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  animasiAwal: TombolBukuAR
+  animasiKlik: KlikBukuAR
+--- !u!114 &568868440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568868432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8e8d5bb5bf4174ea201e68e92f3631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suaraKlik: {fileID: 8300000, guid: d1e3646c43485214280ff0929db1158e, type: 3}
+--- !u!95 &568868441
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -563,7 +581,7 @@ Animator:
   m_GameObject: {fileID: 568868432}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c734ec7c68a943b428a03e860a4b1b06, type: 2}
+  m_Controller: {fileID: 9100000, guid: ceac1912c51ec4c4386ab6ce30444433, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -586,8 +604,8 @@ GameObject:
   - component: {fileID: 676825230}
   - component: {fileID: 676825229}
   - component: {fileID: 676825228}
-  - component: {fileID: 676825227}
-  - component: {fileID: 676825226}
+  - component: {fileID: 676825233}
+  - component: {fileID: 676825232}
   - component: {fileID: 676825231}
   m_Layer: 5
   m_Name: Tri Mandala
@@ -616,38 +634,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.5, y: 0.5}
   m_SizeDelta: {x: 1.5999756, y: 1.199997}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &676825226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676825224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  animasiAwal: TriMandala
-  animasiKlik: AnimasiKlik
---- !u!111 &676825227
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676825224}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
-  - {fileID: 7400000, guid: 2b16f69d40ab2c840b22f01685ed9fc3, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &676825228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -692,8 +678,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 676825226}
-        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+      - m_Target: {fileID: 676825232}
+        m_TargetAssemblyTypeName: AnimasiScene, Assembly-CSharp
         m_MethodName: AnimasiDanPindah
         m_Mode: 5
         m_Arguments:
@@ -752,7 +738,7 @@ Animator:
   m_GameObject: {fileID: 676825224}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c734ec7c68a943b428a03e860a4b1b06, type: 2}
+  m_Controller: {fileID: 9100000, guid: cdac7cc62f5100343baada7a20c11e01, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -763,6 +749,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &676825232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676825224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  animasiAwal: TombolTriMandala
+  animasiKlik: KlikTriMandala
+--- !u!114 &676825233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676825224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8e8d5bb5bf4174ea201e68e92f3631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suaraKlik: {fileID: 8300000, guid: d1e3646c43485214280ff0929db1158e, type: 3}
 --- !u!1 &735971349
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,7 +835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 059aa77a640deca4e8b17c7c4dad3d97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0ce2c0c6d4361b94ab346640a4051be8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -851,9 +865,9 @@ GameObject:
   - component: {fileID: 1117997823}
   - component: {fileID: 1117997822}
   - component: {fileID: 1117997821}
-  - component: {fileID: 1117997820}
-  - component: {fileID: 1117997824}
+  - component: {fileID: 1117997826}
   - component: {fileID: 1117997825}
+  - component: {fileID: 1117997824}
   m_Layer: 5
   m_Name: beranda
   m_TagString: Untagged
@@ -881,23 +895,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!111 &1117997820
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117997817}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 50b36b03b2efb7742a862aa61830f966, type: 2}
-  - {fileID: 7400000, guid: 0afb7797b1785d044b8a717e19726b69, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &1117997821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,8 +939,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1117997824}
-        m_TargetAssemblyTypeName: AnimasiDanPindahScene, Assembly-CSharp
+      - m_Target: {fileID: 1117997825}
+        m_TargetAssemblyTypeName: AnimasiScene, Assembly-CSharp
         m_MethodName: AnimasiDanPindah
         m_Mode: 5
         m_Arguments:
@@ -952,6 +949,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Beranda
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1239651200}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1117997822
@@ -1001,13 +1010,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 1117997817}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8e8d5bb5bf4174ea201e68e92f3631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suaraKlik: {fileID: 8300000, guid: d1e3646c43485214280ff0929db1158e, type: 3}
+--- !u!114 &1117997825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117997817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab0836c6a17b37b43bd9bc13816fe254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 1117997825}
-  animasiAwal: Beranda
-  animasiKlik: AnimasiKlik
---- !u!95 &1117997825
+  animator: {fileID: 0}
+  animasiAwal: TombolBeranda
+  animasiKlik: KlikBeranda
+--- !u!95 &1117997826
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -1017,7 +1039,7 @@ Animator:
   m_GameObject: {fileID: 1117997817}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c734ec7c68a943b428a03e860a4b1b06, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2a06ca2583bf4c84eb46a04a6b4cc010, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1040,6 +1062,7 @@ GameObject:
   - component: {fileID: 1239651198}
   - component: {fileID: 1239651197}
   - component: {fileID: 1239651196}
+  - component: {fileID: 1239651200}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1134,6 +1157,102 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!82 &1239651200
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239651194}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 16c84a75743a46d44ac608455fe02c5a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1555952138
 GameObject:
   m_ObjectHideFlags: 0

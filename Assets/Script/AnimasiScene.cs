@@ -8,6 +8,7 @@ public class AnimasiScene : MonoBehaviour
     [SerializeField] private string animasiAwal = "Tombol";
     [SerializeField] private string animasiKlik = "Klik";
 
+
     private bool isAnimating = false;
     private bool isFirstTime = true;
     private bool exitButtonClicked = false; // Tambahkan variabel untuk menandakan apakah tombol keluar diklik
