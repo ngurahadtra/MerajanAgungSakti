@@ -26,6 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TriMandala.unity
     guid: 31b8d8762304079449912941a4cc3fc4
+  - enabled: 1
+    path: Assets/Scenes/DenahUtama.unity
+    guid: 2c6664eb38b73634cb3fa9c104e82f5b
+  - enabled: 1
+    path: Assets/Scenes/DenahMadya.unity
+    guid: 5893b0996e972104ca485d21db854495
+  - enabled: 1
+    path: Assets/Scenes/DenahNista.unity
+    guid: 114fe7a0583d4e84cabeaaf7e8f957a8
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
