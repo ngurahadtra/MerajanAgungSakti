@@ -8,8 +8,14 @@ public class AturDeskripsi : MonoBehaviour
     private bool[] isMarker;
     private GameObject pelinggih;
     private int hitungMarker;
+    [SerializeField] int jmlMarker;
     [SerializeField] private Text txNama, txDesk;
 
+    private void Start()
+    {
+        isMarker = new bool[jmlMarker];
+    }
+    
     public void SetMarkerOn(int indexMarker)
     {
         if (!isMarker[indexMarker])
