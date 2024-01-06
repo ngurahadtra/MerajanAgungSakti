@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4487322, g: 0.49755758, b: 0.56967306, a: 1}
+  m_IndirectSpecularColor: {r: 0.44864136, g: 0.49762487, b: 0.57055014, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -630,6 +630,7 @@ GameObject:
   - component: {fileID: 119262852}
   - component: {fileID: 119262851}
   - component: {fileID: 119262850}
+  - component: {fileID: 119262854}
   m_Layer: 0
   m_Name: M_Pewaregan
   m_TagString: Untagged
@@ -743,6 +744,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &119262854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119262849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Pewaregan
+  deskripsi: Tempat yang terletak di Jaba tengah, berfungsi untuk dapur mempersiapkan
+    keperluan sajian upacara di Pura.
 --- !u!1001 &192490021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1046,6 +1062,7 @@ GameObject:
   - component: {fileID: 348158899}
   - component: {fileID: 348158898}
   - component: {fileID: 348158897}
+  - component: {fileID: 348158901}
   m_Layer: 0
   m_Name: M_ManjangSakaluang
   m_TagString: Untagged
@@ -1159,6 +1176,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &348158901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348158896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Manjang Sakaluang
+  deskripsi: 'Tempat penghormatan terhadap Mpu Kuturan, seorang tokoh agama penting
+    dalam menyatukan berbagai sekte
+
+    agama yang ada di Bali menjadi satu paham
+    yang dikenal sebagai Tri Murti.'
 --- !u!1 &431554505
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,6 +1206,7 @@ GameObject:
   - component: {fileID: 431554508}
   - component: {fileID: 431554507}
   - component: {fileID: 431554506}
+  - component: {fileID: 431554510}
   m_Layer: 0
   m_Name: M_Piasan Jaba Sisi
   m_TagString: Untagged
@@ -1284,6 +1320,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &431554510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431554505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Piasan Jaba Sisi
+  deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
+    diperlukan dalam upacara keagamaan.
 --- !u!1001 &449962124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1395,6 +1446,7 @@ GameObject:
   - component: {fileID: 472078325}
   - component: {fileID: 472078324}
   - component: {fileID: 472078323}
+  - component: {fileID: 472078327}
   m_Layer: 0
   m_Name: M_Aling-Aling
   m_TagString: Untagged
@@ -1508,6 +1560,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &472078327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472078322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Aling-Aling
+  deskripsi: 'Bangunan pembatas antara angkul - angkul (gapura/pintu masuk) dengan
+    pekarangan merajan yang berfungsi sebagai penetralisir dari gangguan
+
+    negatif
+    baik secara sekala maupun
+
+    niskala.'
 --- !u!1001 &506002843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1619,6 +1691,7 @@ GameObject:
   - component: {fileID: 532151810}
   - component: {fileID: 532151809}
   - component: {fileID: 532151808}
+  - component: {fileID: 532151812}
   m_Layer: 0
   m_Name: M_PelikSariKauh
   m_TagString: Untagged
@@ -1732,6 +1805,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &532151812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532151807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Pelik Sari Kauh
+  deskripsi: "Pelinggih Bale Tajuk yang berfungsi untuk menyimpan pratima meraga
+    Dewa.\r"
 --- !u!4 &546317050 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 66f8393d8260c4c479a3228eb5d7c467,
@@ -1750,6 +1838,7 @@ GameObject:
   - component: {fileID: 554327091}
   - component: {fileID: 554327090}
   - component: {fileID: 554327089}
+  - component: {fileID: 554327093}
   m_Layer: 0
   m_Name: M_BalePelawatan
   m_TagString: Untagged
@@ -1863,6 +1952,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &554327093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554327088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Pelawatan
+  deskripsi: Tempat menaruh pratima, barong, Ratu Ayu dan Ratu Gede.
+--- !u!1 &580542729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 580542730}
+  - component: {fileID: 580542732}
+  - component: {fileID: 580542731}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &580542730
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580542729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1283949438}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.9784, y: -14.96}
+  m_SizeDelta: {x: 655.9652, y: 157.5938}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &580542731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580542729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 22
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Deskripsi
+--- !u!222 &580542732
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580542729}
+  m_CullTransparentMesh: 1
 --- !u!1001 &591403071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1974,6 +2157,7 @@ GameObject:
   - component: {fileID: 616995161}
   - component: {fileID: 616995160}
   - component: {fileID: 616995159}
+  - component: {fileID: 616995163}
   m_Layer: 0
   m_Name: M_BalePiasan
   m_TagString: Untagged
@@ -2087,6 +2271,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &616995163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616995158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Piasan
+  deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
+    diperlukan dalam upacara keagamaan.
 --- !u!1 &685612972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2099,6 +2298,7 @@ GameObject:
   - component: {fileID: 685612975}
   - component: {fileID: 685612974}
   - component: {fileID: 685612973}
+  - component: {fileID: 685612977}
   m_Layer: 0
   m_Name: M_Wisnu
   m_TagString: Untagged
@@ -2212,6 +2412,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &685612977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685612972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Sumur (Wisnu)
+  deskripsi: Sumber air suci yang diperlukan untuk upacara keagamaan, termasuk penyiraman
+    dan penyucian patungpatung dewa atau benda-benda suci.
 --- !u!1001 &688053271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2521,6 +2736,7 @@ GameObject:
   - component: {fileID: 697727136}
   - component: {fileID: 697727135}
   - component: {fileID: 697727134}
+  - component: {fileID: 697727138}
   m_Layer: 0
   m_Name: M_BetaraNini
   m_TagString: Untagged
@@ -2634,6 +2850,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &697727138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697727133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Betara Nini
+  deskripsi: Tempat pengayatan (pemujaan) ida betara nini (Ida Batara Sri yang memberikan
+    kemakmuran)
 --- !u!1001 &733910413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2937,6 +3168,7 @@ GameObject:
   - component: {fileID: 752711044}
   - component: {fileID: 752711043}
   - component: {fileID: 752711042}
+  - component: {fileID: 752711046}
   m_Layer: 0
   m_Name: M_PiasanJabaTengah
   m_TagString: Untagged
@@ -3050,6 +3282,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &752711046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752711041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Piyasan Jaba Tengah
+  deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
+    diperlukan dalam upacara keagamaan.
 --- !u!1001 &790146105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3260,6 +3507,7 @@ GameObject:
   - component: {fileID: 823558000}
   - component: {fileID: 823557999}
   - component: {fileID: 823557998}
+  - component: {fileID: 823558002}
   m_Layer: 0
   m_Name: M_BaleGong
   m_TagString: Untagged
@@ -3373,6 +3621,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &823558002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823557997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Gong
+  deskripsi: Tempat menabuh gamelan gong atau gamelan lainnya yang terletak di bagian
+    utama mandala.
 --- !u!1 &868594456
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,6 +3648,7 @@ GameObject:
   - component: {fileID: 868594459}
   - component: {fileID: 868594458}
   - component: {fileID: 868594457}
+  - component: {fileID: 868594461}
   m_Layer: 0
   m_Name: M_BaleKulkul
   m_TagString: Untagged
@@ -3498,6 +3762,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &868594461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868594456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Kulkul
+  deskripsi: Terletak di sudut jaba sisi pekarangan pura. Fungsinya untuk tempat
+    kulkul yang dibunyikan awal, akhir dan saat tertentu pada upacara.
 --- !u!1 &884482269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,6 +3789,7 @@ GameObject:
   - component: {fileID: 884482272}
   - component: {fileID: 884482271}
   - component: {fileID: 884482270}
+  - component: {fileID: 884482274}
   m_Layer: 0
   m_Name: M_PengayatanPuraUluwatu
   m_TagString: Untagged
@@ -3623,6 +3903,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &884482274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884482269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Pengayatan Pura Uluwatu
+  deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
+    di Pura Uluwatu.
 --- !u!1 &914381147
 GameObject:
   m_ObjectHideFlags: 0
@@ -3635,6 +3930,7 @@ GameObject:
   - component: {fileID: 914381150}
   - component: {fileID: 914381149}
   - component: {fileID: 914381148}
+  - component: {fileID: 914381152}
   m_Layer: 0
   m_Name: M_BaleGongJaba
   m_TagString: Untagged
@@ -3748,6 +4044,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &914381152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914381147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Gong Jaba Sisi
+  deskripsi: "Tempat menabuh gamelan gong atau gamelan lainnya yang terletak di bagian
+    jaba sisi.\r"
 --- !u!1001 &932092778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3959,7 +4270,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964967420}
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalRotation: {x: 0.27102447, y: -0, z: -0, w: 0.96257246}
   m_LocalPosition: {x: 0, y: 0.3, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3967,7 +4278,7 @@ Transform:
   - {fileID: 1357990514}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 31.451, y: 0, z: 0}
 --- !u!1001 &999424954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4079,6 +4390,7 @@ GameObject:
   - component: {fileID: 1057038800}
   - component: {fileID: 1057038799}
   - component: {fileID: 1057038798}
+  - component: {fileID: 1057038802}
   m_Layer: 0
   m_Name: M_RatuNgurahEbuh
   m_TagString: Untagged
@@ -4192,6 +4504,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1057038802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057038797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Ratu Ngurah Ebuh
+  deskripsi: 'Pelinggih yang berfungsi sebagai penjaga pintu masuk ke Sanggah Pamerajan.
+    Sebelum memasuki Pamerajan, setiap individu di sini melakukan persembahyangan
+    dan
+
+    meminta izin kepada entitas spiritual yang diwakili oleh Ratu Ngurah
+    Ebuh.'
+--- !u!1 &1085842842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1085842843}
+  - component: {fileID: 1085842845}
+  - component: {fileID: 1085842844}
+  m_Layer: 5
+  m_Name: ImgNama
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1085842843
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085842842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1419040912}
+  m_Father: {fileID: 1238222577}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 188, y: 66}
+  m_SizeDelta: {x: 319.2643, y: 91.8432}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1085842844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085842842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fd3ac489f9523fa4cb303073bd1bc718, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1085842845
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085842842}
+  m_CullTransparentMesh: 1
 --- !u!1 &1120480248
 GameObject:
   m_ObjectHideFlags: 0
@@ -4204,6 +4612,7 @@ GameObject:
   - component: {fileID: 1120480251}
   - component: {fileID: 1120480250}
   - component: {fileID: 1120480249}
+  - component: {fileID: 1120480253}
   m_Layer: 0
   m_Name: M_PengayatanPuraSakenan
   m_TagString: Untagged
@@ -4317,6 +4726,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1120480253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120480248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Pengayatan Pura Sakenen
+  deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
+    di Pura Sakenan.
 --- !u!1001 &1125239080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4428,6 +4852,7 @@ GameObject:
   - component: {fileID: 1132537242}
   - component: {fileID: 1132537241}
   - component: {fileID: 1132537240}
+  - component: {fileID: 1132537244}
   m_Layer: 0
   m_Name: M_PengayatanPuraBatukaru
   m_TagString: Untagged
@@ -4541,6 +4966,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1132537244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132537239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Pengayatan Pura Batukaru
+  deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
+    di Pura Batukaru.
 --- !u!1001 &1151071865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4751,6 +5191,7 @@ GameObject:
   - component: {fileID: 1218203895}
   - component: {fileID: 1218203894}
   - component: {fileID: 1218203893}
+  - component: {fileID: 1218203897}
   m_Layer: 0
   m_Name: M_TaksuAgung
   m_TagString: Untagged
@@ -4864,6 +5305,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1218203897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218203892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Taksu Agung
+  deskripsi: Tempat untuk memohon keberhasilan untuk semua jenis profesi serta mendekatkan
+    diri ke hadapan Sang Hyang Taksu Agung atau Sang Hyang Adi Taksu.
 --- !u!1001 &1221981511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4963,6 +5419,254 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1221981511}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1238222573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1238222577}
+  - component: {fileID: 1238222576}
+  - component: {fileID: 1238222575}
+  - component: {fileID: 1238222574}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1238222574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238222573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1238222575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238222573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1280, y: 720}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1238222576
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238222573}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1238222577
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238222573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1085842843}
+  - {fileID: 1283949438}
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1283949437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1283949438}
+  - component: {fileID: 1283949440}
+  - component: {fileID: 1283949439}
+  m_Layer: 5
+  m_Name: ImgDeskripsi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1283949438
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283949437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 580542730}
+  m_Father: {fileID: 1238222577}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 640, y: 395}
+  m_SizeDelta: {x: 831.7578, y: 363.4847}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1283949439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283949437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8ee33f4be95db5c47b73ec71bc185542, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1283949440
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283949437}
+  m_CullTransparentMesh: 1
+--- !u!1 &1335187906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1335187909}
+  - component: {fileID: 1335187908}
+  - component: {fileID: 1335187907}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1335187907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335187906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1335187908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335187906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1335187909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335187906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1340870501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5168,6 +5872,7 @@ GameObject:
   - component: {fileID: 1372451321}
   - component: {fileID: 1372451320}
   - component: {fileID: 1372451319}
+  - component: {fileID: 1372451323}
   m_Layer: 0
   m_Name: M_PengayatanKahyanganTiga
   m_TagString: Untagged
@@ -5281,6 +5986,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1372451323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372451318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Pengayatan Kahyangan Tiga
+  deskripsi: Tempat pemujaan tuhan dalam fungsinya sebagai niyasa atau simbol stana
+    Hyang Widhi dalam konsep Tri Murti.
 --- !u!1 &1380539466
 GameObject:
   m_ObjectHideFlags: 0
@@ -5293,6 +6013,7 @@ GameObject:
   - component: {fileID: 1380539469}
   - component: {fileID: 1380539468}
   - component: {fileID: 1380539467}
+  - component: {fileID: 1380539471}
   m_Layer: 0
   m_Name: M_Kemulan
   m_TagString: Untagged
@@ -5406,6 +6127,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1380539471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380539466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: 'Kemulan '
+  deskripsi: Tempat para atman leluhur, Dewa Pitara (Dewa Hyang  Guru) atau keturunan
+    anak Agung Gede Padang.
+--- !u!1 &1419040911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1419040912}
+  - component: {fileID: 1419040914}
+  - component: {fileID: 1419040913}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1419040912
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419040911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1085842843}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.0435, y: -0}
+  m_SizeDelta: {x: 253.9156, y: 34.174}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1419040913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419040911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 22
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Nama
+--- !u!222 &1419040914
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419040911}
+  m_CullTransparentMesh: 1
 --- !u!1 &1452201782
 GameObject:
   m_ObjectHideFlags: 0
@@ -5418,6 +6234,7 @@ GameObject:
   - component: {fileID: 1452201785}
   - component: {fileID: 1452201784}
   - component: {fileID: 1452201783}
+  - component: {fileID: 1452201787}
   m_Layer: 0
   m_Name: M_BalePangrauhan
   m_TagString: Untagged
@@ -5531,6 +6348,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1452201787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452201782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Pangrauhan
+  deskripsi: Tempat di mana pelaksanaan upacara nedunin Ida Bhatara agar rauh (datang).
 --- !u!1 &1476518645
 GameObject:
   m_ObjectHideFlags: 0
@@ -5543,6 +6374,7 @@ GameObject:
   - component: {fileID: 1476518648}
   - component: {fileID: 1476518647}
   - component: {fileID: 1476518646}
+  - component: {fileID: 1476518650}
   m_Layer: 0
   m_Name: M_PelikSariKangin
   m_TagString: Untagged
@@ -5656,6 +6488,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1476518650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476518645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Pelik Sari Kangin
+  deskripsi: Pelinggih yang berada ditengah-tengah juga disebut dengan Bale Pileh
+    atau Bale Tajuk. Fungsinya untuk menyimpan pratima meraga Hyang.
 --- !u!1 &1585852380
 GameObject:
   m_ObjectHideFlags: 0
@@ -5668,6 +6515,7 @@ GameObject:
   - component: {fileID: 1585852383}
   - component: {fileID: 1585852382}
   - component: {fileID: 1585852381}
+  - component: {fileID: 1585852385}
   m_Layer: 0
   m_Name: M_BalePesanekan
   m_TagString: Untagged
@@ -5781,6 +6629,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1585852385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585852380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Pesanekan
+  deskripsi: Sebagai tempat beristirahat Jero Mangku atau pengempon merajan.
 --- !u!1 &1596487038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5793,6 +6655,7 @@ GameObject:
   - component: {fileID: 1596487040}
   - component: {fileID: 1596487039}
   - component: {fileID: 1596487042}
+  - component: {fileID: 1596487043}
   m_Layer: 0
   m_Name: M_Padmasana
   m_TagString: Untagged
@@ -5906,6 +6769,21 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1596487040}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1596487043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596487038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Padmasana
+  deskripsi: Lambang makrokosmos atau alam semesta yang merupakan istana langsung
+    dari Ida Sang Hyang Widhi Wasa atau Tuhan itu sendiri.
 --- !u!1 &1658102458
 GameObject:
   m_ObjectHideFlags: 0
@@ -5918,6 +6796,7 @@ GameObject:
   - component: {fileID: 1658102461}
   - component: {fileID: 1658102460}
   - component: {fileID: 1658102459}
+  - component: {fileID: 1658102463}
   m_Layer: 0
   m_Name: M_GedongKunci
   m_TagString: Untagged
@@ -6031,6 +6910,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1658102463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658102458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Gedong Kunci
+  deskripsi: Pelinggih pokok yang digunakan untuk menyembah Ida Batara Sakti sebagai
+    leluhur Pemerajan Agung Sakti Padangsambian.
 --- !u!1001 &1682459377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6142,6 +7036,7 @@ GameObject:
   - component: {fileID: 1731843651}
   - component: {fileID: 1731843650}
   - component: {fileID: 1731843649}
+  - component: {fileID: 1731843653}
   m_Layer: 0
   m_Name: M_HyangIbu
   m_TagString: Untagged
@@ -6255,6 +7150,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1731843653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731843648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Hyang Ibu
+  deskripsi: 'Tempat suci yang didedikasikan untuk memuja Ida Batara Anak Agung Gede
+    Padang, yang dianggap sebagai encipta
+
+    dan pemrakarsa dari Pemerajan Agung
+    Sakti tersebut.'
 --- !u!1 &1767066735
 GameObject:
   m_ObjectHideFlags: 0
@@ -6267,6 +7180,7 @@ GameObject:
   - component: {fileID: 1767066738}
   - component: {fileID: 1767066737}
   - component: {fileID: 1767066736}
+  - component: {fileID: 1767066740}
   m_Layer: 0
   m_Name: M_BaleBanten
   m_TagString: Untagged
@@ -6380,6 +7294,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1767066740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767066735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Banten
+  deskripsi: "Tempat untuk menaruh perlengkapan bebantenan untuk upacara Hindu di
+    Bali.\r"
 --- !u!1001 &1858416966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6590,6 +7519,7 @@ GameObject:
   - component: {fileID: 1881199851}
   - component: {fileID: 1881199850}
   - component: {fileID: 1881199849}
+  - component: {fileID: 1881199853}
   m_Layer: 0
   m_Name: M_BalePemangku
   m_TagString: Untagged
@@ -6703,6 +7633,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1881199853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881199848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Bale Pemangku
+  deskripsi: Tempat pemangku agama (pinandita) menghaturkan persembahan Yadnya kepada
+    tuhan.
 --- !u!1 &1925653046
 GameObject:
   m_ObjectHideFlags: 0
@@ -6715,6 +7660,7 @@ GameObject:
   - component: {fileID: 1925653049}
   - component: {fileID: 1925653048}
   - component: {fileID: 1925653047}
+  - component: {fileID: 1925653051}
   m_Layer: 0
   m_Name: M_RatuAnom
   m_TagString: Untagged
@@ -6828,6 +7774,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1925653051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925653046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Ratu Anom
+  deskripsi: Pelinggih yang didedikasikan khusus untuk memuja Ida Batara Lanang Dawan,
+    sebagai putra dari Ida Batara Sakti.
 --- !u!1 &1984265161
 GameObject:
   m_ObjectHideFlags: 0
@@ -6840,6 +7801,7 @@ GameObject:
   - component: {fileID: 1984265164}
   - component: {fileID: 1984265163}
   - component: {fileID: 1984265162}
+  - component: {fileID: 1984265166}
   m_Layer: 0
   m_Name: M_RatuGedeGangga
   m_TagString: Untagged
@@ -6953,6 +7915,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 46.717, y: 0, z: 0}
+--- !u!114 &1984265166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984265161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Ratu Gede Gangga
+  deskripsi: Tempat persinggahan untuk tamu merajan sebagai manifestasi tuhan lainnya.
 --- !u!1001 &2035055129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7163,6 +8139,7 @@ GameObject:
   - component: {fileID: 2088616775}
   - component: {fileID: 2088616774}
   - component: {fileID: 2088616777}
+  - component: {fileID: 2088616778}
   m_Layer: 0
   m_Name: M_MeruTumpangTiga
   m_TagString: Untagged
@@ -7276,6 +8253,22 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2088616775}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &2088616778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088616773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ae338ec87634699a55806f0f4cc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nama: Meru Tumpang Tiga
+  deskripsi: Tempat singgah atau tempat bersemayam bagi Ida Batara Kawitan, yang
+    merupakan leluhur rohani atau entitas spiritual yang sangat dihormati dalam tradisi
+    agama Hindu di Bali.
 --- !u!4 &2122286388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 142df6110b0744e48ad768544db8cfec,
