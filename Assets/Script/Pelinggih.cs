@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Pelinggih : MonoBehaviour
 {
     [SerializeField] private string nama;
     [SerializeField] [TextArea] private string deskripsi;
+    [SerializeField] private AudioClip audioDeskripsi; 
 
     public string GetNama()
     {
@@ -15,5 +14,10 @@ public class Pelinggih : MonoBehaviour
     public string GetDeskripsi()
     {
         return deskripsi;
+    }
+
+    public AudioClip GetAudioDeskripsi()
+    {
+        return audioDeskripsi;
     }
 }
