@@ -11,7 +11,7 @@ public class AturDeskripsi : MonoBehaviour
     public AudioSource audioSource;
 
     public GameObject penanda;
-    public GameObject DenahAR;
+    public GameObject Denah_AR;
     public GameObject InfoPelinggih;
     public GameObject sound_Off;
     public GameObject PopUpInfo;
@@ -20,6 +20,7 @@ public class AturDeskripsi : MonoBehaviour
     public Button tutupInfo;
     public Button soundOff;
     public Button soundOn;
+    public Button denahAR;
 
     private void Start()
     {
@@ -28,6 +29,7 @@ public class AturDeskripsi : MonoBehaviour
         tutupInfo.onClick.AddListener(TutupInfoOnClick);
         soundOff.onClick.AddListener(soundOffOnClick);
         soundOn.onClick.AddListener(soundOnOnClick);
+        denahAR.onClick.AddListener(DenahAROnClick);
     }
 
     private void InfoPelinggihOnClick()
@@ -40,6 +42,14 @@ public class AturDeskripsi : MonoBehaviour
                 audioSource.clip = audioClip;
                 audioSource.Play();
             }
+        }
+    }
+
+    private void DenahAROnClick()
+    {
+        if (pelinggih != null)
+        {
+            LoadSceneBasedOnIndex(pelinggih.GetComponent<Pelinggih>().GetIndex());
         }
     }
 
@@ -116,11 +126,34 @@ public class AturDeskripsi : MonoBehaviour
         txNamaInfo.transform.parent.gameObject.SetActive(b);
     }
 
+    private void LoadSceneBasedOnIndex(int index)
+    {
+        string sceneName = "";
+
+        if (index >= 1 && index <= 20)
+        {
+           sceneName = "DenahUtama";
+        }
+        else if (index >= 21 && index <= 27)
+        {
+            sceneName = "DenahMadya";
+        }
+        else if (index >= 28 && index <= 31)
+        {
+            sceneName = "DenahNista";
+        }
+
+        if (!string.IsNullOrEmpty(sceneName))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+        }
+    }
+
     void Update()
     {
         if (hitungMarker == 0)
         {
-            DenahAR.SetActive(false);
+            Denah_AR.SetActive(false);
             InfoPelinggih.SetActive(false);
             SetUI(false);
             penanda.SetActive(true);
@@ -136,7 +169,7 @@ public class AturDeskripsi : MonoBehaviour
 
         if (pelinggih != null)
         {
-            DenahAR.SetActive(true);
+            Denah_AR.SetActive(true);
             InfoPelinggih.SetActive(true);
             SetUI(true);
             penanda.SetActive(false);
@@ -146,4 +179,7 @@ public class AturDeskripsi : MonoBehaviour
             txNamaInfo.text = pelinggih.GetComponent<Pelinggih>().GetNama();
         }
     }
+
+    
+
 }

@@ -802,6 +802,7 @@ MonoBehaviour:
   deskripsi: Tempat yang terletak di Jaba tengah, berfungsi untuk dapur mempersiapkan
     keperluan sajian upacara di Pura.
   audioDeskripsi: {fileID: 8300000, guid: 8a82385af2a432941bd3fc3c523e138b, type: 3}
+  pelinggihIndex: 24
 --- !u!82 &119262856
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1434,6 +1435,7 @@ MonoBehaviour:
     dalam menyatukan berbagai sekte agama yang ada di Bali menjadi satu paham yang
     dikenal sebagai Tri Murti.
   audioDeskripsi: {fileID: 8300000, guid: 5e996351f684eb749aee221cf4271888, type: 3}
+  pelinggihIndex: 14
 --- !u!82 &348158903
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1960,6 +1962,7 @@ MonoBehaviour:
   deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
     diperlukan dalam upacara keagamaan.
   audioDeskripsi: {fileID: 8300000, guid: 71047f3cd07a7544a9e27271a1507a64, type: 3}
+  pelinggihIndex: 29
 --- !u!82 &431554512
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2480,6 +2483,7 @@ MonoBehaviour:
     pekarangan merajan yang berfungsi sebagai penetralisir dari gangguan negatif
     baik secara sekala maupun niskala.
   audioDeskripsi: {fileID: 8300000, guid: c10825a257945f94f975f622e37d637b, type: 3}
+  pelinggihIndex: 27
 --- !u!82 &472078329
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2878,6 +2882,7 @@ MonoBehaviour:
   deskripsi: "Pelinggih Bale Tajuk yang berfungsi untuk menyimpan pratima meraga
     Dewa.\r"
   audioDeskripsi: {fileID: 8300000, guid: 63f951207ae383e4589ac3b1c0f3509a, type: 3}
+  pelinggihIndex: 18
 --- !u!82 &532151814
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3182,6 +3187,7 @@ MonoBehaviour:
   nama: Bale Pelawatan
   deskripsi: Tempat menaruh pratima, barong, Ratu Ayu dan Ratu Gede.
   audioDeskripsi: {fileID: 8300000, guid: 904266404cab104419e7e7a545d6e971, type: 3}
+  pelinggihIndex: 8
 --- !u!82 &554327095
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3660,6 +3666,7 @@ MonoBehaviour:
   deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
     diperlukan dalam upacara keagamaan.
   audioDeskripsi: {fileID: 8300000, guid: 909f310f7b60949468437aec7341793b, type: 3}
+  pelinggihIndex: 12
 --- !u!82 &616995165
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4094,6 +4101,7 @@ MonoBehaviour:
   deskripsi: Sumber air suci yang diperlukan untuk upacara keagamaan, termasuk penyiraman
     dan penyucian patungpatung dewa atau benda-benda suci.
   audioDeskripsi: {fileID: 8300000, guid: 3b5ccf4a666b96e49bf1b45d251ff365, type: 3}
+  pelinggihIndex: 26
 --- !u!82 &685612979
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4825,6 +4833,7 @@ MonoBehaviour:
   deskripsi: Tempat pengayatan (pemujaan) ida betara nini (Ida Batara Sri yang memberikan
     kemakmuran)
   audioDeskripsi: {fileID: 8300000, guid: 7b7b84b7f110b0a438813c3dd4618b4b, type: 3}
+  pelinggihIndex: 21
 --- !u!82 &697727140
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5415,6 +5424,7 @@ MonoBehaviour:
   deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
     diperlukan dalam upacara keagamaan.
   audioDeskripsi: {fileID: 8300000, guid: ebd1b1fd6bdf6364fa7a8865e974ca71, type: 3}
+  pelinggihIndex: 22
 --- !u!82 &752711048
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5912,6 +5922,7 @@ MonoBehaviour:
   deskripsi: Tempat menabuh gamelan gong atau gamelan lainnya yang terletak di bagian
     utama mandala.
   audioDeskripsi: {fileID: 8300000, guid: 52f72622d547f7d4fb868cc644e77d7d, type: 3}
+  pelinggihIndex: 9
 --- !u!82 &823558004
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6211,6 +6222,7 @@ MonoBehaviour:
   deskripsi: Terletak di sudut jaba sisi pekarangan pura. Fungsinya untuk tempat
     kulkul yang dibunyikan awal, akhir dan saat tertentu pada upacara.
   audioDeskripsi: {fileID: 8300000, guid: 8f47e0fe319783546bcdf37f91d516c0, type: 3}
+  pelinggihIndex: 31
 --- !u!82 &868594463
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6510,6 +6522,7 @@ MonoBehaviour:
   deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
     di Pura Uluwatu.
   audioDeskripsi: {fileID: 8300000, guid: cf9b620086bee124494454b3c2f3b665, type: 3}
+  pelinggihIndex: 17
 --- !u!82 &884482276
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6809,6 +6822,7 @@ MonoBehaviour:
   deskripsi: "Tempat menabuh gamelan gong atau gamelan lainnya yang terletak di bagian
     jaba sisi.\r"
   audioDeskripsi: {fileID: 8300000, guid: 36c100d823d9b9c4f9eef46a5b995ca9, type: 3}
+  pelinggihIndex: 30
 --- !u!82 &914381154
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7037,7 +7051,7 @@ GameObject:
   - component: {fileID: 942221089}
   - component: {fileID: 942221085}
   m_Layer: 5
-  m_Name: DenahAR
+  m_Name: Denah_AR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7563,6 +7577,7 @@ MonoBehaviour:
     Sebelum memasuki Pamerajan, setiap individu di sini melakukan persembahyangan
     dan meminta izin kepada entitas spiritual yang diwakili oleh Ratu Ngurah Ebuh.
   audioDeskripsi: {fileID: 8300000, guid: ae4776657527a9b4f96fc7ca424fb5ef, type: 3}
+  pelinggihIndex: 28
 --- !u!82 &1057038804
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7939,6 +7954,7 @@ MonoBehaviour:
   deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
     di Pura Sakenan.
   audioDeskripsi: {fileID: 8300000, guid: 315fcc5978016a943a038b765cc58a7a, type: 3}
+  pelinggihIndex: 16
 --- !u!82 &1120480255
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8337,6 +8353,7 @@ MonoBehaviour:
   deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
     di Pura Batukaru.
   audioDeskripsi: {fileID: 8300000, guid: f23917934b02d344cb0560c0ffbdc4b4, type: 3}
+  pelinggihIndex: 15
 --- !u!82 &1132537246
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8487,7 +8504,7 @@ MonoBehaviour:
   txNamaInfo: {fileID: 428439483}
   audioSource: {fileID: 1238222578}
   penanda: {fileID: 1572553327}
-  DenahAR: {fileID: 942221083}
+  Denah_AR: {fileID: 942221083}
   InfoPelinggih: {fileID: 2136952404}
   sound_Off: {fileID: 677762204}
   PopUpInfo: {fileID: 337705836}
@@ -8496,6 +8513,7 @@ MonoBehaviour:
   tutupInfo: {fileID: 424453578}
   soundOff: {fileID: 677762209}
   soundOn: {fileID: 692114505}
+  denahAR: {fileID: 942221089}
 --- !u!4 &1141514479
 Transform:
   m_ObjectHideFlags: 0
@@ -8893,6 +8911,7 @@ MonoBehaviour:
   deskripsi: Tempat untuk memohon keberhasilan untuk semua jenis profesi serta mendekatkan
     diri ke hadapan Sang Hyang Taksu Agung atau Sang Hyang Adi Taksu.
   audioDeskripsi: {fileID: 8300000, guid: 10b0348821ff2dc4aa86fef391feb829, type: 3}
+  pelinggihIndex: 13
 --- !u!82 &1218203899
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9833,6 +9852,7 @@ MonoBehaviour:
   deskripsi: Tempat pemujaan tuhan dalam fungsinya sebagai niyasa atau simbol stana
     Hyang Widhi dalam konsep Tri Murti.
   audioDeskripsi: {fileID: 8300000, guid: 7b490a642cd868049a00293e894616b7, type: 3}
+  pelinggihIndex: 3
 --- !u!82 &1372451325
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10208,6 +10228,7 @@ MonoBehaviour:
   deskripsi: Tempat para atman leluhur, Dewa Pitara (Dewa Hyang  Guru) atau keturunan
     anak Agung Gede Padang.
   audioDeskripsi: {fileID: 8300000, guid: 241b4ca76b6122549a58fd84fe6fcb66, type: 3}
+  pelinggihIndex: 7
 --- !u!82 &1380539473
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10586,6 +10607,7 @@ MonoBehaviour:
   nama: Bale Pangrauhan
   deskripsi: Tempat di mana pelaksanaan upacara nedunin Ida Bhatara agar rauh (datang).
   audioDeskripsi: {fileID: 8300000, guid: e0aced84195659241985db431bc824af, type: 3}
+  pelinggihIndex: 10
 --- !u!82 &1452201789
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10885,6 +10907,7 @@ MonoBehaviour:
   deskripsi: Pelinggih yang berada ditengah-tengah juga disebut dengan Bale Pileh
     atau Bale Tajuk. Fungsinya untuk menyimpan pratima meraga Hyang.
   audioDeskripsi: {fileID: 8300000, guid: 1f7f2eff560afcf49bb2006ba071c6c2, type: 3}
+  pelinggihIndex: 19
 --- !u!82 &1476518652
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11301,6 +11324,7 @@ MonoBehaviour:
   nama: Bale Pesanekan
   deskripsi: Sebagai tempat beristirahat Jero Mangku atau pengempon merajan.
   audioDeskripsi: {fileID: 8300000, guid: d5d2885e67295cd4e97bb2312d1f5c6b, type: 3}
+  pelinggihIndex: 23
 --- !u!82 &1585852387
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11600,6 +11624,7 @@ MonoBehaviour:
   deskripsi: Lambang makrokosmos atau alam semesta yang merupakan istana langsung
     dari Ida Sang Hyang Widhi Wasa atau Tuhan itu sendiri.
   audioDeskripsi: {fileID: 8300000, guid: f88f3aac4b65df1409203f2f58d5d769, type: 3}
+  pelinggihIndex: 1
 --- !u!82 &1596487044
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11899,6 +11924,7 @@ MonoBehaviour:
   deskripsi: Pelinggih pokok yang digunakan untuk menyembah Ida Batara Sakti sebagai
     leluhur Pemerajan Agung Sakti Padangsambian.
   audioDeskripsi: {fileID: 8300000, guid: 376eaebfd886d974f825625592c182d8, type: 3}
+  pelinggihIndex: 4
 --- !u!82 &1658102465
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12298,6 +12324,7 @@ MonoBehaviour:
     Padang, yang dianggap sebagai pencipta dan pemrakarsa dari Pemerajan Agung Sakti
     tersebut.
   audioDeskripsi: {fileID: 8300000, guid: 955a4149e899c7a42990cd38caeff646, type: 3}
+  pelinggihIndex: 6
 --- !u!82 &1731843655
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12597,6 +12624,7 @@ MonoBehaviour:
   deskripsi: "Tempat untuk menaruh perlengkapan bebantenan untuk upacara Hindu di
     Bali.\r"
   audioDeskripsi: {fileID: 8300000, guid: c122deeb3a5955c42b312f56c0e541ba, type: 3}
+  pelinggihIndex: 11
 --- !u!82 &1767066742
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13171,6 +13199,7 @@ MonoBehaviour:
   deskripsi: Tempat pemangku agama (pinandita) menghaturkan persembahan Yadnya kepada
     tuhan.
   audioDeskripsi: {fileID: 8300000, guid: 6e8f9e155c851474781a9552a2eb3719, type: 3}
+  pelinggihIndex: 20
 --- !u!82 &1881199855
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13470,6 +13499,7 @@ MonoBehaviour:
   deskripsi: Pelinggih yang didedikasikan khusus untuk memuja Ida Batara Lanang Dawan,
     sebagai putra dari Ida Batara Sakti.
   audioDeskripsi: {fileID: 8300000, guid: 469acec24125f904a9440df9a9c7c90f, type: 3}
+  pelinggihIndex: 5
 --- !u!82 &1925653053
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13768,6 +13798,7 @@ MonoBehaviour:
   nama: Ratu Gede Gangga
   deskripsi: Tempat persinggahan untuk tamu merajan sebagai manifestasi tuhan lainnya.
   audioDeskripsi: {fileID: 8300000, guid: 9a821b61a47d2cb40837059cfa8c2c78, type: 3}
+  pelinggihIndex: 25
 --- !u!82 &1984265168
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14266,6 +14297,7 @@ MonoBehaviour:
     merupakan leluhur rohani atau entitas spiritual yang sangat dihormati dalam tradisi
     agama Hindu di Bali.
   audioDeskripsi: {fileID: 8300000, guid: 3440bb24969e07d449e96e93a04da368, type: 3}
+  pelinggihIndex: 2
 --- !u!82 &2088616779
 AudioSource:
   m_ObjectHideFlags: 0
