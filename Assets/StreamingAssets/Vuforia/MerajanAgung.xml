@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="19-PelikSariKangin" size="0.210000 0.297048" />
+    <ImageTarget name="18-PelikSariKauh" size="0.210000 0.297048" />
+    <ImageTarget name="17-PengayatanPuraUluwatu" size="0.210000 0.297048" />
+    <ImageTarget name="16-PengayatanPuraSakenen" size="0.210000 0.297048" />
+    <ImageTarget name="15-PengayatanPuraBatukaru" size="0.210000 0.297048" />
+    <ImageTarget name="14-ManjangSakaluang" size="0.210000 0.297048" />
     <ImageTarget name="UtamaMandala" size="0.210000 0.297048" />
     <ImageTarget name="NistaMandala" size="0.210000 0.297048" />
     <ImageTarget name="MadyaMandala" size="0.210000 0.297048" />
@@ -16,12 +22,6 @@
     <ImageTarget name="22-Piasan" size="0.210000 0.297048" />
     <ImageTarget name="21-BetaraNini" size="0.210000 0.297048" />
     <ImageTarget name="20-BalePemangku" size="0.210000 0.297048" />
-    <ImageTarget name="19-PelikSariKauh" size="0.210000 0.297048" />
-    <ImageTarget name="18-PelikSariKangin" size="0.210000 0.297048" />
-    <ImageTarget name="17-PengayatanPuraSakenen" size="0.210000 0.297048" />
-    <ImageTarget name="16-PengayatanPuraUluwatu" size="0.210000 0.297048" />
-    <ImageTarget name="15-ManjangSakaluang" size="0.210000 0.297048" />
-    <ImageTarget name="14-PengayatanPuraBatukaru" size="0.210000 0.297048" />
     <ImageTarget name="13-TaksuAgung" size="0.210000 0.297048" />
     <ImageTarget name="12-BalePiasan" size="0.210000 0.297048" />
     <ImageTarget name="11-BaleBanten" size="0.210000 0.297048" />
