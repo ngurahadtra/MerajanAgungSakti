@@ -6,19 +6,83 @@ public class AturDeskripsi : MonoBehaviour
     private bool[] isMarker;
     private GameObject pelinggih;
     private int hitungMarker;
-    private AudioSource audioSource; // Tambahkan AudioSource
     [SerializeField] int jmlMarker;
     [SerializeField] private Text txNama, txDesk;
+    public AudioSource audioSource;
+
+    public GameObject penanda;
+    public GameObject DenahAR;
+    public GameObject InfoPelinggih;
+    public GameObject sound_Off;
+    public GameObject sound_On;
+    public Button infoPelinggih;
+    public Button tutupInfo;
+    public Button soundOff;
+    public Button soundOn;
 
     private void Start()
     {
         isMarker = new bool[jmlMarker];
-        audioSource = gameObject.AddComponent<AudioSource>(); // Tambahkan AudioSource ke GameObject saat ini
+        infoPelinggih.onClick.AddListener(InfoPelinggihOnClick);
+        tutupInfo.onClick.AddListener(TutupInfoOnClick);
+        soundOff.onClick.AddListener(soundOffOnClick);
+        soundOn.onClick.AddListener(soundOnOnClick);
+    }
 
-        // Opsional: Konfigurasi pengaturan AudioSource
-        audioSource.playOnAwake = false; // Nonaktifkan playOnAwake agar tidak diputar secara otomatis
-        audioSource.volume = 1.0f; // Sesuaikan volume sesuai kebutuhan
-        audioSource.loop = false; // Setel ke true jika ingin audio diputar berulang
+    private void InfoPelinggihOnClick()
+    {
+        if (pelinggih != null)
+        {
+            AudioClip audioClip = pelinggih.GetComponent<Pelinggih>().GetAudioDeskripsi();
+            if (audioClip != null)
+            {
+                audioSource.clip = audioClip;
+                audioSource.Play();
+            }
+        }
+    }
+
+    private void TutupInfoOnClick()
+    {
+        if (pelinggih != null)
+        {
+            AudioClip audioClip = pelinggih.GetComponent<Pelinggih>().GetAudioDeskripsi();
+            if (audioClip != null)
+            {
+                audioSource.clip = audioClip;
+                audioSource.Stop();
+            }
+        }
+    }
+
+    private void soundOnOnClick()
+    {
+        if (pelinggih != null)
+        {
+            AudioClip audioClip = pelinggih.GetComponent<Pelinggih>().GetAudioDeskripsi();
+            if (audioClip != null)
+            {
+                audioSource.clip = audioClip;
+                audioSource.Pause();
+                sound_Off.SetActive(true);
+                sound_On.SetActive(false);
+            }
+        }
+    }
+
+    private void soundOffOnClick()
+    {
+        if (pelinggih != null)
+        {
+            AudioClip audioClip = pelinggih.GetComponent<Pelinggih>().GetAudioDeskripsi();
+            if (audioClip != null)
+            {
+                audioSource.clip = audioClip;
+                audioSource.Play();
+                sound_Off.SetActive(false);
+                sound_On.SetActive(true);
+            }
+        }
     }
 
     public void SetMarkerOn(int indexMarker)
@@ -27,17 +91,6 @@ public class AturDeskripsi : MonoBehaviour
         {
             isMarker[indexMarker] = true;
             hitungMarker++;
-
-            // Memutar AudioClip dari Pelinggih saat marker terdeteksi
-            if (pelinggih != null)
-            {
-                AudioClip audioClip = pelinggih.GetComponent<Pelinggih>().GetAudioDeskripsi();
-                if (audioClip != null)
-                {
-                    audioSource.clip = audioClip;
-                    audioSource.Play();
-                }
-            }
         }
     }
 
@@ -47,9 +100,6 @@ public class AturDeskripsi : MonoBehaviour
         {
             isMarker[indexMarker] = false;
             hitungMarker--;
-
-            // Menghentikan pemutaran AudioClip saat marker tidak terdeteksi
-            audioSource.Stop();
         }
     }
 
@@ -64,20 +114,24 @@ public class AturDeskripsi : MonoBehaviour
         txDesk.transform.parent.gameObject.SetActive(b);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (hitungMarker == 0)
         {
+            DenahAR.SetActive(false);
+            InfoPelinggih.SetActive(false);
+            penanda.SetActive(true);
             SetUI(false);
             return;
         }
 
         if (pelinggih != null)
         {
+            DenahAR.SetActive(true);
+            InfoPelinggih.SetActive(true);
             SetUI(true);
+            penanda.SetActive(false);
 
-            // Mengambil nilai hanya jika ada marker aktif
             txNama.text = pelinggih.GetComponent<Pelinggih>().GetNama();
             txDesk.text = pelinggih.GetComponent<Pelinggih>().GetDeskripsi();
         }
