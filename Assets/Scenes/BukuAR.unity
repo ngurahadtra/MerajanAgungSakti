@@ -1218,7 +1218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 337705837}
   m_Layer: 5
-  m_Name: Pop Up Info
+  m_Name: PopUpInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8490,6 +8490,7 @@ MonoBehaviour:
   DenahAR: {fileID: 942221083}
   InfoPelinggih: {fileID: 2136952404}
   sound_Off: {fileID: 677762204}
+  PopUpInfo: {fileID: 337705836}
   sound_On: {fileID: 692114501}
   infoPelinggih: {fileID: 2136952410}
   tutupInfo: {fileID: 424453578}

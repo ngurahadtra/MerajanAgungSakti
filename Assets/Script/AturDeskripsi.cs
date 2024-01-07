@@ -14,6 +14,7 @@ public class AturDeskripsi : MonoBehaviour
     public GameObject DenahAR;
     public GameObject InfoPelinggih;
     public GameObject sound_Off;
+    public GameObject PopUpInfo;
     public GameObject sound_On;
     public Button infoPelinggih;
     public Button tutupInfo;
@@ -121,10 +122,17 @@ public class AturDeskripsi : MonoBehaviour
         {
             DenahAR.SetActive(false);
             InfoPelinggih.SetActive(false);
-            penanda.SetActive(true);
             SetUI(false);
+            penanda.SetActive(true);
+
+            if (audioSource.isPlaying)
+            {
+                audioSource.Stop();
+                PopUpInfo.SetActive(false);
+            }
             return;
         }
+
 
         if (pelinggih != null)
         {
