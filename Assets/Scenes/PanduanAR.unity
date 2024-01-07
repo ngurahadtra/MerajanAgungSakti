@@ -422,8 +422,8 @@ GameObject:
   - component: {fileID: 441029965}
   - component: {fileID: 441029964}
   - component: {fileID: 441029962}
-  - component: {fileID: 441029968}
   - component: {fileID: 441029967}
+  - component: {fileID: 441029968}
   m_Layer: 5
   m_Name: kanan btn
   m_TagString: Untagged
@@ -446,10 +446,10 @@ RectTransform:
   m_Father: {fileID: 1239651199}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.88156253, y: 0.07238889}
-  m_AnchorMax: {x: 0.96000004, y: 0.23044446}
-  m_AnchoredPosition: {x: -2, y: -5.9999847}
-  m_SizeDelta: {x: -22.200012, y: -16}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -105, y: 104}
+  m_SizeDelta: {x: 85.6784, y: 87.0604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441029962
 MonoBehaviour:
@@ -631,7 +631,7 @@ Animator:
   m_GameObject: {fileID: 441029960}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0c56865cd11fae842abe928acb790998, type: 2}
+  m_Controller: {fileID: 9100000, guid: e63056d1d4320d648995fdb58bc09b7c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1777,8 +1777,8 @@ GameObject:
   - component: {fileID: 1545749693}
   - component: {fileID: 1545749692}
   - component: {fileID: 1545749691}
-  - component: {fileID: 1545749696}
   - component: {fileID: 1545749695}
+  - component: {fileID: 1545749696}
   m_Layer: 5
   m_Name: kiri btn
   m_TagString: Untagged
@@ -1801,10 +1801,10 @@ RectTransform:
   m_Father: {fileID: 1239651199}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.049531255, y: 0.07238889}
-  m_AnchorMax: {x: 0.117000006, y: 0.23044446}
-  m_AnchoredPosition: {x: -0.5, y: -5.9999847}
-  m_SizeDelta: {x: -10.200012, y: -16}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 112, y: 104.04578}
+  m_SizeDelta: {x: 85.6784, y: 87.0604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545749691
 MonoBehaviour:
@@ -1986,7 +1986,7 @@ Animator:
   m_GameObject: {fileID: 1545749688}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9237e286d14921e4d97caa98033710b6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 48787f7a2e0e7b243aece6e48e11d5f1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2220,7 +2220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: 237.5}
+  m_AnchoredPosition: {x: 0, y: 237.5}
   m_SizeDelta: {x: -498, y: -428}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1743525173
