@@ -7,11 +7,12 @@ public class AturDeskripsi : MonoBehaviour
     private GameObject pelinggih;
     private int hitungMarker;
     [SerializeField] int jmlMarker;
-    [SerializeField] private Text txNama, txDesk, txNamaInfo;
+    [SerializeField] private Text txNo, txNama, txDesk, txNamaInfo;
     public AudioSource audioSource;
 
     public GameObject penanda;
     public GameObject Denah_AR;
+    public GameObject ImgNomor;
     public GameObject InfoPelinggih;
     public GameObject sound_Off;
     public GameObject PopUpInfo;
@@ -154,6 +155,7 @@ public class AturDeskripsi : MonoBehaviour
         if (hitungMarker == 0)
         {
             Denah_AR.SetActive(false);
+            ImgNomor.SetActive(false);
             InfoPelinggih.SetActive(false);
             SetUI(false);
             penanda.SetActive(true);
@@ -170,6 +172,7 @@ public class AturDeskripsi : MonoBehaviour
         if (pelinggih != null)
         {
             Denah_AR.SetActive(true);
+            ImgNomor.SetActive(true);
             InfoPelinggih.SetActive(true);
             SetUI(true);
             penanda.SetActive(false);
@@ -177,6 +180,7 @@ public class AturDeskripsi : MonoBehaviour
             txNama.text = pelinggih.GetComponent<Pelinggih>().GetNama();
             txDesk.text = pelinggih.GetComponent<Pelinggih>().GetDeskripsi();
             txNamaInfo.text = pelinggih.GetComponent<Pelinggih>().GetNama();
+            txNo.text = pelinggih.GetComponent<Pelinggih>().GetIndex().ToString();
         }
     }
 
