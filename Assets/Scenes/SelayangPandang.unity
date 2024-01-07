@@ -227,9 +227,9 @@ GameObject:
   - component: {fileID: 210641533}
   - component: {fileID: 210641532}
   - component: {fileID: 210641531}
-  - component: {fileID: 210641530}
   - component: {fileID: 210641529}
   - component: {fileID: 210641528}
+  - component: {fileID: 210641534}
   m_Layer: 5
   m_Name: galeri
   m_TagString: Untagged
@@ -283,29 +283,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  animasiAwal: TombolBeranda
-  animasiKlik: KlikBeranda
---- !u!95 &210641530
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210641526}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2a06ca2583bf4c84eb46a04a6b4cc010, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  animasiAwal: TombolGaleri
+  animasiKlik: KlikGaleri
 --- !u!114 &210641531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,6 +379,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210641526}
   m_CullTransparentMesh: 1
+--- !u!95 &210641534
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210641526}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 036e78ded0d49f64eb5c800fb66584bb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &275800315
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,8 +435,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -266.5, y: -43}
-  m_SizeDelta: {x: -718.4, y: -212.70001}
+  m_AnchoredPosition: {x: -236.5, y: -43}
+  m_SizeDelta: {x: -717.4, y: -212.70001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &275800317
 MonoBehaviour:
@@ -1094,8 +1094,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 287.5, y: -43}
-  m_SizeDelta: {x: -717.4, y: -212.70001}
+  m_AnchoredPosition: {x: 253, y: -43}
+  m_SizeDelta: {x: -718.4, y: -212.70001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &494808488
 MonoBehaviour:
@@ -1301,9 +1301,9 @@ GameObject:
   - component: {fileID: 1117997823}
   - component: {fileID: 1117997822}
   - component: {fileID: 1117997821}
-  - component: {fileID: 1117997826}
   - component: {fileID: 1117997825}
   - component: {fileID: 1117997824}
+  - component: {fileID: 1117997826}
   m_Layer: 5
   m_Name: beranda
   m_TagString: Untagged
@@ -1463,7 +1463,7 @@ Animator:
   m_GameObject: {fileID: 1117997817}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2a06ca2583bf4c84eb46a04a6b4cc010, type: 2}
+  m_Controller: {fileID: 9100000, guid: cc7e1b2f2db2ea645bbe6eee048c2a98, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1795,6 +1795,7 @@ GameObject:
   - component: {fileID: 1318929736}
   - component: {fileID: 1318929742}
   - component: {fileID: 1318929743}
+  - component: {fileID: 1318929744}
   m_Layer: 5
   m_Name: maps
   m_TagString: Untagged
@@ -1848,8 +1849,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  animasiAwal: TombolBeranda
-  animasiKlik: KlikBeranda
+  animasiAwal: TombolMap
+  animasiKlik: KlikMap
 --- !u!114 &1318929739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2124,6 +2125,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdd26f17c4f886f42bcee04f75c6a2be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1318929744
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318929734}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc6cd1fc1b95d564b8f5c459ec1d5f80, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1340801940
 GameObject:
   m_ObjectHideFlags: 0
