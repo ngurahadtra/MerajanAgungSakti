@@ -630,8 +630,8 @@ GameObject:
   - component: {fileID: 119262852}
   - component: {fileID: 119262851}
   - component: {fileID: 119262854}
-  - component: {fileID: 119262855}
   - component: {fileID: 119262856}
+  - component: {fileID: 119262857}
   m_Layer: 0
   m_Name: M_Pewaregan
   m_TagString: Untagged
@@ -769,7 +769,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 119262855}
+  mPreview: {fileID: 119262857}
 --- !u!4 &119262853
 Transform:
   m_ObjectHideFlags: 0
@@ -802,25 +802,6 @@ MonoBehaviour:
   deskripsi: Tempat yang terletak di Jaba tengah, berfungsi untuk dapur mempersiapkan
     keperluan sajian upacara di Pura.
   audioDeskripsi: {fileID: 8300000, guid: 8a82385af2a432941bd3fc3c523e138b, type: 3}
---- !u!114 &119262855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119262849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 119262852}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 24-Pewaregan
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 119262852}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &119262856
 AudioSource:
   m_ObjectHideFlags: 0
@@ -917,6 +898,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &119262857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119262849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 119262852}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 24-Pewaregan
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 119262852}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &192490021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1240,6 +1240,7 @@ RectTransform:
   - {fileID: 1559811153}
   - {fileID: 424453573}
   - {fileID: 1283949438}
+  - {fileID: 1864768793}
   m_Father: {fileID: 1238222577}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1260,8 +1261,8 @@ GameObject:
   - component: {fileID: 348158899}
   - component: {fileID: 348158898}
   - component: {fileID: 348158901}
-  - component: {fileID: 348158902}
   - component: {fileID: 348158903}
+  - component: {fileID: 348158904}
   m_Layer: 0
   m_Name: M_ManjangSakaluang
   m_TagString: Untagged
@@ -1399,7 +1400,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 348158902}
+  mPreview: {fileID: 348158904}
 --- !u!4 &348158900
 Transform:
   m_ObjectHideFlags: 0
@@ -1433,25 +1434,6 @@ MonoBehaviour:
     dalam menyatukan berbagai sekte agama yang ada di Bali menjadi satu paham yang
     dikenal sebagai Tri Murti.
   audioDeskripsi: {fileID: 8300000, guid: 5e996351f684eb749aee221cf4271888, type: 3}
---- !u!114 &348158902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348158896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 348158899}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 15-ManjangSakaluang
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 348158899}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &348158903
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1548,6 +1530,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &348158904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348158896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 348158899}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 15-ManjangSakaluang
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 348158899}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &424453572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,6 +1696,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424453572}
   m_CullTransparentMesh: 1
+--- !u!1 &428439481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 428439482}
+  - component: {fileID: 428439484}
+  - component: {fileID: 428439483}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &428439482
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428439481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1864768793}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1.1751, y: 0}
+  m_SizeDelta: {x: 514.9532, y: 34.174}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &428439483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428439481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.34509805, g: 0.1137255, b: 0.3019608, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Nama
+--- !u!222 &428439484
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428439481}
+  m_CullTransparentMesh: 1
 --- !u!1 &431554505
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,8 +1788,8 @@ GameObject:
   - component: {fileID: 431554508}
   - component: {fileID: 431554507}
   - component: {fileID: 431554510}
-  - component: {fileID: 431554511}
   - component: {fileID: 431554512}
+  - component: {fileID: 431554513}
   m_Layer: 0
   m_Name: M_Piasan Jaba Sisi
   m_TagString: Untagged
@@ -1846,7 +1927,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 431554511}
+  mPreview: {fileID: 431554513}
 --- !u!4 &431554509
 Transform:
   m_ObjectHideFlags: 0
@@ -1879,25 +1960,6 @@ MonoBehaviour:
   deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
     diperlukan dalam upacara keagamaan.
   audioDeskripsi: {fileID: 8300000, guid: 71047f3cd07a7544a9e27271a1507a64, type: 3}
---- !u!114 &431554511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431554505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 431554508}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 29-Piasan
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 431554508}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &431554512
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1994,6 +2056,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &431554513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431554505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 431554508}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 29-Piasan
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 431554508}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &437051282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2226,8 +2307,8 @@ GameObject:
   - component: {fileID: 472078325}
   - component: {fileID: 472078324}
   - component: {fileID: 472078327}
-  - component: {fileID: 472078328}
   - component: {fileID: 472078329}
+  - component: {fileID: 472078330}
   m_Layer: 0
   m_Name: M_Aling-Aling
   m_TagString: Untagged
@@ -2365,7 +2446,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 472078328}
+  mPreview: {fileID: 472078330}
 --- !u!4 &472078326
 Transform:
   m_ObjectHideFlags: 0
@@ -2395,33 +2476,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nama: Aling-Aling
-  deskripsi: 'Bangunan pembatas antara angkul - angkul (gapura/pintu masuk) dengan
-    pekarangan merajan yang berfungsi sebagai penetralisir dari gangguan
-
-    negatif
-    baik secara sekala maupun
-
-    niskala.'
+  deskripsi: Bangunan pembatas antara angkul - angkul (gapura/pintu masuk) dengan
+    pekarangan merajan yang berfungsi sebagai penetralisir dari gangguan negatif
+    baik secara sekala maupun niskala.
   audioDeskripsi: {fileID: 8300000, guid: c10825a257945f94f975f622e37d637b, type: 3}
---- !u!114 &472078328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472078322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 472078325}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 27-Aling-Aling
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 472078325}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &472078329
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2518,6 +2576,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &472078330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472078322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 472078325}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 27-Aling-Aling
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 472078325}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &506002843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2629,8 +2706,8 @@ GameObject:
   - component: {fileID: 532151810}
   - component: {fileID: 532151809}
   - component: {fileID: 532151812}
-  - component: {fileID: 532151813}
   - component: {fileID: 532151814}
+  - component: {fileID: 532151815}
   m_Layer: 0
   m_Name: M_PelikSariKauh
   m_TagString: Untagged
@@ -2768,7 +2845,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 532151813}
+  mPreview: {fileID: 532151815}
 --- !u!4 &532151811
 Transform:
   m_ObjectHideFlags: 0
@@ -2801,25 +2878,6 @@ MonoBehaviour:
   deskripsi: "Pelinggih Bale Tajuk yang berfungsi untuk menyimpan pratima meraga
     Dewa.\r"
   audioDeskripsi: {fileID: 8300000, guid: 63f951207ae383e4589ac3b1c0f3509a, type: 3}
---- !u!114 &532151813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532151807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 532151810}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 19-PelikSariKauh
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 532151810}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &532151814
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2916,6 +2974,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &532151815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532151807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 532151810}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 19-PelikSariKauh
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 532151810}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!4 &546317050 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 66f8393d8260c4c479a3228eb5d7c467,
@@ -2934,8 +3011,8 @@ GameObject:
   - component: {fileID: 554327091}
   - component: {fileID: 554327090}
   - component: {fileID: 554327093}
-  - component: {fileID: 554327094}
   - component: {fileID: 554327095}
+  - component: {fileID: 554327096}
   m_Layer: 0
   m_Name: M_BalePelawatan
   m_TagString: Untagged
@@ -3073,7 +3150,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 554327094}
+  mPreview: {fileID: 554327096}
 --- !u!4 &554327092
 Transform:
   m_ObjectHideFlags: 0
@@ -3105,25 +3182,6 @@ MonoBehaviour:
   nama: Bale Pelawatan
   deskripsi: Tempat menaruh pratima, barong, Ratu Ayu dan Ratu Gede.
   audioDeskripsi: {fileID: 8300000, guid: 904266404cab104419e7e7a545d6e971, type: 3}
---- !u!114 &554327094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554327088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 554327091}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8-BalePelawatan
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 554327091}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &554327095
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3220,6 +3278,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &554327096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554327088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 554327091}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 8-BalePelawatan
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 554327091}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &580542729
 GameObject:
   m_ObjectHideFlags: 0
@@ -3255,8 +3332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.9784, y: -14.96}
-  m_SizeDelta: {x: 655.9652, y: 157.5938}
+  m_AnchoredPosition: {x: -1.936, y: -17.0835}
+  m_SizeDelta: {x: 650.9547, y: 195.8166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &580542731
 MonoBehaviour:
@@ -3271,7 +3348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.34509805, g: 0.1137255, b: 0.3019608, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3411,8 +3488,8 @@ GameObject:
   - component: {fileID: 616995161}
   - component: {fileID: 616995160}
   - component: {fileID: 616995163}
-  - component: {fileID: 616995164}
   - component: {fileID: 616995165}
+  - component: {fileID: 616995166}
   m_Layer: 0
   m_Name: M_BalePiasan
   m_TagString: Untagged
@@ -3550,7 +3627,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 616995164}
+  mPreview: {fileID: 616995166}
 --- !u!4 &616995162
 Transform:
   m_ObjectHideFlags: 0
@@ -3583,25 +3660,6 @@ MonoBehaviour:
   deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
     diperlukan dalam upacara keagamaan.
   audioDeskripsi: {fileID: 8300000, guid: 909f310f7b60949468437aec7341793b, type: 3}
---- !u!114 &616995164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616995158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 616995161}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 12-BalePiasan
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 616995161}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &616995165
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3698,6 +3756,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &616995166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616995158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 616995161}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 12-BalePiasan
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 616995161}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &677762204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3845,8 +3922,8 @@ GameObject:
   - component: {fileID: 685612975}
   - component: {fileID: 685612974}
   - component: {fileID: 685612977}
-  - component: {fileID: 685612978}
   - component: {fileID: 685612979}
+  - component: {fileID: 685612980}
   m_Layer: 0
   m_Name: M_Wisnu
   m_TagString: Untagged
@@ -3984,7 +4061,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 685612978}
+  mPreview: {fileID: 685612980}
 --- !u!4 &685612976
 Transform:
   m_ObjectHideFlags: 0
@@ -4017,25 +4094,6 @@ MonoBehaviour:
   deskripsi: Sumber air suci yang diperlukan untuk upacara keagamaan, termasuk penyiraman
     dan penyucian patungpatung dewa atau benda-benda suci.
   audioDeskripsi: {fileID: 8300000, guid: 3b5ccf4a666b96e49bf1b45d251ff365, type: 3}
---- !u!114 &685612978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685612972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 685612975}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 26-Wisnu
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 685612975}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &685612979
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4132,6 +4190,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &685612980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685612972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 685612975}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 26-Wisnu
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 685612975}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &688053271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4576,8 +4653,8 @@ GameObject:
   - component: {fileID: 697727136}
   - component: {fileID: 697727135}
   - component: {fileID: 697727138}
-  - component: {fileID: 697727139}
   - component: {fileID: 697727140}
+  - component: {fileID: 697727141}
   m_Layer: 0
   m_Name: M_BetaraNini
   m_TagString: Untagged
@@ -4715,7 +4792,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 697727139}
+  mPreview: {fileID: 697727141}
 --- !u!4 &697727137
 Transform:
   m_ObjectHideFlags: 0
@@ -4748,25 +4825,6 @@ MonoBehaviour:
   deskripsi: Tempat pengayatan (pemujaan) ida betara nini (Ida Batara Sri yang memberikan
     kemakmuran)
   audioDeskripsi: {fileID: 8300000, guid: 7b7b84b7f110b0a438813c3dd4618b4b, type: 3}
---- !u!114 &697727139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 697727133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 697727136}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 21-BetaraNini
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 697727136}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &697727140
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4863,6 +4921,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &697727141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697727133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 697727136}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 21-BetaraNini
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 697727136}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &733910413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5166,8 +5243,8 @@ GameObject:
   - component: {fileID: 752711044}
   - component: {fileID: 752711043}
   - component: {fileID: 752711046}
-  - component: {fileID: 752711047}
   - component: {fileID: 752711048}
+  - component: {fileID: 752711049}
   m_Layer: 0
   m_Name: M_PiasanJabaTengah
   m_TagString: Untagged
@@ -5305,7 +5382,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 752711047}
+  mPreview: {fileID: 752711049}
 --- !u!4 &752711045
 Transform:
   m_ObjectHideFlags: 0
@@ -5338,25 +5415,6 @@ MonoBehaviour:
   deskripsi: Tempat untuk menyimpan, menyiapkan, dan menyajikan sarana-sarana yang
     diperlukan dalam upacara keagamaan.
   audioDeskripsi: {fileID: 8300000, guid: ebd1b1fd6bdf6364fa7a8865e974ca71, type: 3}
---- !u!114 &752711047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752711041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 752711044}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 22-Piasan
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 752711044}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &752711048
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5453,6 +5511,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &752711049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752711041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 752711044}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 22-Piasan
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 752711044}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &790146105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5663,8 +5740,8 @@ GameObject:
   - component: {fileID: 823558000}
   - component: {fileID: 823557999}
   - component: {fileID: 823558002}
-  - component: {fileID: 823558003}
   - component: {fileID: 823558004}
+  - component: {fileID: 823558005}
   m_Layer: 0
   m_Name: M_BaleGong
   m_TagString: Untagged
@@ -5802,7 +5879,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 823558003}
+  mPreview: {fileID: 823558005}
 --- !u!4 &823558001
 Transform:
   m_ObjectHideFlags: 0
@@ -5835,25 +5912,6 @@ MonoBehaviour:
   deskripsi: Tempat menabuh gamelan gong atau gamelan lainnya yang terletak di bagian
     utama mandala.
   audioDeskripsi: {fileID: 8300000, guid: 52f72622d547f7d4fb868cc644e77d7d, type: 3}
---- !u!114 &823558003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823557997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 823558000}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9-BaleGong
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 823558000}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &823558004
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5950,6 +6008,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &823558005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823557997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 823558000}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 9-BaleGong
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 823558000}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &868594456
 GameObject:
   m_ObjectHideFlags: 0
@@ -5962,8 +6039,8 @@ GameObject:
   - component: {fileID: 868594459}
   - component: {fileID: 868594458}
   - component: {fileID: 868594461}
-  - component: {fileID: 868594462}
   - component: {fileID: 868594463}
+  - component: {fileID: 868594464}
   m_Layer: 0
   m_Name: M_BaleKulkul
   m_TagString: Untagged
@@ -6101,7 +6178,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 868594462}
+  mPreview: {fileID: 868594464}
 --- !u!4 &868594460
 Transform:
   m_ObjectHideFlags: 0
@@ -6134,25 +6211,6 @@ MonoBehaviour:
   deskripsi: Terletak di sudut jaba sisi pekarangan pura. Fungsinya untuk tempat
     kulkul yang dibunyikan awal, akhir dan saat tertentu pada upacara.
   audioDeskripsi: {fileID: 8300000, guid: 8f47e0fe319783546bcdf37f91d516c0, type: 3}
---- !u!114 &868594462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868594456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 868594459}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 31-BaleKulkul
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 868594459}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &868594463
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6249,6 +6307,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &868594464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868594456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 868594459}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 31-BaleKulkul
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 868594459}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &884482269
 GameObject:
   m_ObjectHideFlags: 0
@@ -6261,8 +6338,8 @@ GameObject:
   - component: {fileID: 884482272}
   - component: {fileID: 884482271}
   - component: {fileID: 884482274}
-  - component: {fileID: 884482275}
   - component: {fileID: 884482276}
+  - component: {fileID: 884482277}
   m_Layer: 0
   m_Name: M_PengayatanPuraUluwatu
   m_TagString: Untagged
@@ -6400,7 +6477,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 884482275}
+  mPreview: {fileID: 884482277}
 --- !u!4 &884482273
 Transform:
   m_ObjectHideFlags: 0
@@ -6433,25 +6510,6 @@ MonoBehaviour:
   deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
     di Pura Uluwatu.
   audioDeskripsi: {fileID: 8300000, guid: cf9b620086bee124494454b3c2f3b665, type: 3}
---- !u!114 &884482275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 884482269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 884482272}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 16-PengayatanPuraUluwatu
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 884482272}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &884482276
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6548,6 +6606,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &884482277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884482269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 884482272}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 16-PengayatanPuraUluwatu
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 884482272}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &914381147
 GameObject:
   m_ObjectHideFlags: 0
@@ -6560,8 +6637,8 @@ GameObject:
   - component: {fileID: 914381150}
   - component: {fileID: 914381149}
   - component: {fileID: 914381152}
-  - component: {fileID: 914381153}
   - component: {fileID: 914381154}
+  - component: {fileID: 914381155}
   m_Layer: 0
   m_Name: M_BaleGongJaba
   m_TagString: Untagged
@@ -6699,7 +6776,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 914381153}
+  mPreview: {fileID: 914381155}
 --- !u!4 &914381151
 Transform:
   m_ObjectHideFlags: 0
@@ -6732,25 +6809,6 @@ MonoBehaviour:
   deskripsi: "Tempat menabuh gamelan gong atau gamelan lainnya yang terletak di bagian
     jaba sisi.\r"
   audioDeskripsi: {fileID: 8300000, guid: 36c100d823d9b9c4f9eef46a5b995ca9, type: 3}
---- !u!114 &914381153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 914381147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 914381150}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 30-BaleGongJaba
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 914381150}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &914381154
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6847,6 +6905,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &914381155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914381147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 914381150}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 30-BaleGongJaba
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 914381150}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &932092778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7313,8 +7390,8 @@ GameObject:
   - component: {fileID: 1057038800}
   - component: {fileID: 1057038799}
   - component: {fileID: 1057038802}
-  - component: {fileID: 1057038803}
   - component: {fileID: 1057038804}
+  - component: {fileID: 1057038805}
   m_Layer: 0
   m_Name: M_RatuNgurahEbuh
   m_TagString: Untagged
@@ -7452,7 +7529,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1057038803}
+  mPreview: {fileID: 1057038805}
 --- !u!4 &1057038801
 Transform:
   m_ObjectHideFlags: 0
@@ -7486,25 +7563,6 @@ MonoBehaviour:
     Sebelum memasuki Pamerajan, setiap individu di sini melakukan persembahyangan
     dan meminta izin kepada entitas spiritual yang diwakili oleh Ratu Ngurah Ebuh.
   audioDeskripsi: {fileID: 8300000, guid: ae4776657527a9b4f96fc7ca424fb5ef, type: 3}
---- !u!114 &1057038803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057038797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1057038800}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 28-RatuNgurahEbuh
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1057038800}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1057038804
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7601,6 +7659,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1057038805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057038797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1057038800}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 28-RatuNgurahEbuh
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1057038800}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1085842842
 GameObject:
   m_ObjectHideFlags: 0
@@ -7637,8 +7714,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 188, y: 66}
-  m_SizeDelta: {x: 319.2643, y: 91.8432}
+  m_AnchoredPosition: {x: 192.44, y: 67.263}
+  m_SizeDelta: {x: 344.8713, y: 79.586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1085842844
 MonoBehaviour:
@@ -7660,7 +7737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fd3ac489f9523fa4cb303073bd1bc718, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e5203693c4a75f41bd3406affa2145c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7690,8 +7767,8 @@ GameObject:
   - component: {fileID: 1120480251}
   - component: {fileID: 1120480250}
   - component: {fileID: 1120480253}
-  - component: {fileID: 1120480254}
   - component: {fileID: 1120480255}
+  - component: {fileID: 1120480256}
   m_Layer: 0
   m_Name: M_PengayatanPuraSakenan
   m_TagString: Untagged
@@ -7829,7 +7906,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1120480254}
+  mPreview: {fileID: 1120480256}
 --- !u!4 &1120480252
 Transform:
   m_ObjectHideFlags: 0
@@ -7862,25 +7939,6 @@ MonoBehaviour:
   deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
     di Pura Sakenan.
   audioDeskripsi: {fileID: 8300000, guid: 315fcc5978016a943a038b765cc58a7a, type: 3}
---- !u!114 &1120480254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120480248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1120480251}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 17-PengayatanPuraSakenen
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1120480251}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1120480255
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7977,6 +8035,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1120480256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120480248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1120480251}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 17-PengayatanPuraSakenen
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1120480251}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1125239080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8088,8 +8165,8 @@ GameObject:
   - component: {fileID: 1132537242}
   - component: {fileID: 1132537241}
   - component: {fileID: 1132537244}
-  - component: {fileID: 1132537245}
   - component: {fileID: 1132537246}
+  - component: {fileID: 1132537247}
   m_Layer: 0
   m_Name: M_PengayatanPuraBatukaru
   m_TagString: Untagged
@@ -8227,7 +8304,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1132537245}
+  mPreview: {fileID: 1132537247}
 --- !u!4 &1132537243
 Transform:
   m_ObjectHideFlags: 0
@@ -8260,25 +8337,6 @@ MonoBehaviour:
   deskripsi: Tempat pengayatan (pemujaan) Hyang Widhi dalam manifestasinya yang berstana
     di Pura Batukaru.
   audioDeskripsi: {fileID: 8300000, guid: f23917934b02d344cb0560c0ffbdc4b4, type: 3}
---- !u!114 &1132537245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1132537239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1132537242}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 14-PengayatanPuraBatukaru
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1132537242}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1132537246
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8375,6 +8433,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1132537247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132537239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1132537242}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 14-PengayatanPuraBatukaru
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1132537242}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1141514477
 GameObject:
   m_ObjectHideFlags: 0
@@ -8407,6 +8484,7 @@ MonoBehaviour:
   jmlMarker: 31
   txNama: {fileID: 1419040913}
   txDesk: {fileID: 580542731}
+  txNamaInfo: {fileID: 428439483}
   audioSource: {fileID: 1238222578}
   penanda: {fileID: 1572553327}
   DenahAR: {fileID: 942221083}
@@ -8642,8 +8720,8 @@ GameObject:
   - component: {fileID: 1218203895}
   - component: {fileID: 1218203894}
   - component: {fileID: 1218203897}
-  - component: {fileID: 1218203898}
   - component: {fileID: 1218203899}
+  - component: {fileID: 1218203900}
   m_Layer: 0
   m_Name: M_TaksuAgung
   m_TagString: Untagged
@@ -8781,7 +8859,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1218203898}
+  mPreview: {fileID: 1218203900}
 --- !u!4 &1218203896
 Transform:
   m_ObjectHideFlags: 0
@@ -8814,25 +8892,6 @@ MonoBehaviour:
   deskripsi: Tempat untuk memohon keberhasilan untuk semua jenis profesi serta mendekatkan
     diri ke hadapan Sang Hyang Taksu Agung atau Sang Hyang Adi Taksu.
   audioDeskripsi: {fileID: 8300000, guid: 10b0348821ff2dc4aa86fef391feb829, type: 3}
---- !u!114 &1218203898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218203892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1218203895}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 13-TaksuAgung
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1218203895}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1218203899
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8929,6 +8988,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1218203900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218203892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1218203895}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 13-TaksuAgung
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1218203895}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1221981511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9582,8 +9660,8 @@ GameObject:
   - component: {fileID: 1372451321}
   - component: {fileID: 1372451320}
   - component: {fileID: 1372451323}
-  - component: {fileID: 1372451324}
   - component: {fileID: 1372451325}
+  - component: {fileID: 1372451326}
   m_Layer: 0
   m_Name: M_PengayatanKahyanganTiga
   m_TagString: Untagged
@@ -9721,7 +9799,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1372451324}
+  mPreview: {fileID: 1372451326}
 --- !u!4 &1372451322
 Transform:
   m_ObjectHideFlags: 0
@@ -9754,25 +9832,6 @@ MonoBehaviour:
   deskripsi: Tempat pemujaan tuhan dalam fungsinya sebagai niyasa atau simbol stana
     Hyang Widhi dalam konsep Tri Murti.
   audioDeskripsi: {fileID: 8300000, guid: 7b490a642cd868049a00293e894616b7, type: 3}
---- !u!114 &1372451324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372451318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1372451321}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3-PengayatanKahyanganTiga
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1372451321}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1372451325
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9869,6 +9928,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1372451326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372451318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1372451321}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3-PengayatanKahyanganTiga
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1372451321}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1377743710
 GameObject:
   m_ObjectHideFlags: 0
@@ -9957,8 +10035,8 @@ GameObject:
   - component: {fileID: 1380539469}
   - component: {fileID: 1380539468}
   - component: {fileID: 1380539471}
-  - component: {fileID: 1380539472}
   - component: {fileID: 1380539473}
+  - component: {fileID: 1380539474}
   m_Layer: 0
   m_Name: M_Kemulan
   m_TagString: Untagged
@@ -10096,7 +10174,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1380539472}
+  mPreview: {fileID: 1380539474}
 --- !u!4 &1380539470
 Transform:
   m_ObjectHideFlags: 0
@@ -10129,25 +10207,6 @@ MonoBehaviour:
   deskripsi: Tempat para atman leluhur, Dewa Pitara (Dewa Hyang  Guru) atau keturunan
     anak Agung Gede Padang.
   audioDeskripsi: {fileID: 8300000, guid: 241b4ca76b6122549a58fd84fe6fcb66, type: 3}
---- !u!114 &1380539472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1380539466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1380539469}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7-Kemulan
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1380539469}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1380539473
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10244,6 +10303,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1380539474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380539466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1380539469}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 7-Kemulan
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1380539469}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1419040911
 GameObject:
   m_ObjectHideFlags: 0
@@ -10279,8 +10357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.0435, y: -0}
-  m_SizeDelta: {x: 253.9156, y: 34.174}
+  m_AnchoredPosition: {x: -3.7, y: -0}
+  m_SizeDelta: {x: 300.4482, y: 34.174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419040913
 MonoBehaviour:
@@ -10295,7 +10373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.34509805, g: 0.1137255, b: 0.3019608, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10310,7 +10388,7 @@ MonoBehaviour:
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
@@ -10336,8 +10414,8 @@ GameObject:
   - component: {fileID: 1452201785}
   - component: {fileID: 1452201784}
   - component: {fileID: 1452201787}
-  - component: {fileID: 1452201788}
   - component: {fileID: 1452201789}
+  - component: {fileID: 1452201790}
   m_Layer: 0
   m_Name: M_BalePangrauhan
   m_TagString: Untagged
@@ -10475,7 +10553,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1452201788}
+  mPreview: {fileID: 1452201790}
 --- !u!4 &1452201786
 Transform:
   m_ObjectHideFlags: 0
@@ -10507,25 +10585,6 @@ MonoBehaviour:
   nama: Bale Pangrauhan
   deskripsi: Tempat di mana pelaksanaan upacara nedunin Ida Bhatara agar rauh (datang).
   audioDeskripsi: {fileID: 8300000, guid: e0aced84195659241985db431bc824af, type: 3}
---- !u!114 &1452201788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452201782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1452201785}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10-BalePangrauhan
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1452201785}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1452201789
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10622,6 +10681,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1452201790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452201782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1452201785}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 10-BalePangrauhan
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1452201785}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1476518645
 GameObject:
   m_ObjectHideFlags: 0
@@ -10634,8 +10712,8 @@ GameObject:
   - component: {fileID: 1476518648}
   - component: {fileID: 1476518647}
   - component: {fileID: 1476518650}
-  - component: {fileID: 1476518651}
   - component: {fileID: 1476518652}
+  - component: {fileID: 1476518653}
   m_Layer: 0
   m_Name: M_PelikSariKangin
   m_TagString: Untagged
@@ -10773,7 +10851,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1476518651}
+  mPreview: {fileID: 1476518653}
 --- !u!4 &1476518649
 Transform:
   m_ObjectHideFlags: 0
@@ -10806,25 +10884,6 @@ MonoBehaviour:
   deskripsi: Pelinggih yang berada ditengah-tengah juga disebut dengan Bale Pileh
     atau Bale Tajuk. Fungsinya untuk menyimpan pratima meraga Hyang.
   audioDeskripsi: {fileID: 8300000, guid: 1f7f2eff560afcf49bb2006ba071c6c2, type: 3}
---- !u!114 &1476518651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476518645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1476518648}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 18-PelikSariKangin
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1476518648}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1476518652
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10921,6 +10980,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1476518653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476518645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1476518648}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 18-PelikSariKangin
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1476518648}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1559811152
 GameObject:
   m_ObjectHideFlags: 0
@@ -11051,8 +11129,8 @@ GameObject:
   - component: {fileID: 1585852383}
   - component: {fileID: 1585852382}
   - component: {fileID: 1585852385}
-  - component: {fileID: 1585852386}
   - component: {fileID: 1585852387}
+  - component: {fileID: 1585852388}
   m_Layer: 0
   m_Name: M_BalePesanekan
   m_TagString: Untagged
@@ -11190,7 +11268,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1585852386}
+  mPreview: {fileID: 1585852388}
 --- !u!4 &1585852384
 Transform:
   m_ObjectHideFlags: 0
@@ -11222,25 +11300,6 @@ MonoBehaviour:
   nama: Bale Pesanekan
   deskripsi: Sebagai tempat beristirahat Jero Mangku atau pengempon merajan.
   audioDeskripsi: {fileID: 8300000, guid: d5d2885e67295cd4e97bb2312d1f5c6b, type: 3}
---- !u!114 &1585852386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585852380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1585852383}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 23-BalePesanekan
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1585852383}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1585852387
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11337,6 +11396,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1585852388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585852380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1585852383}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 23-BalePesanekan
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1585852383}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1596487038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11648,8 +11726,8 @@ GameObject:
   - component: {fileID: 1658102461}
   - component: {fileID: 1658102460}
   - component: {fileID: 1658102463}
-  - component: {fileID: 1658102464}
   - component: {fileID: 1658102465}
+  - component: {fileID: 1658102466}
   m_Layer: 0
   m_Name: M_GedongKunci
   m_TagString: Untagged
@@ -11787,7 +11865,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1658102464}
+  mPreview: {fileID: 1658102466}
 --- !u!4 &1658102462
 Transform:
   m_ObjectHideFlags: 0
@@ -11820,25 +11898,6 @@ MonoBehaviour:
   deskripsi: Pelinggih pokok yang digunakan untuk menyembah Ida Batara Sakti sebagai
     leluhur Pemerajan Agung Sakti Padangsambian.
   audioDeskripsi: {fileID: 8300000, guid: 376eaebfd886d974f825625592c182d8, type: 3}
---- !u!114 &1658102464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658102458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1658102461}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4-GedongKunci
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1658102461}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1658102465
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11935,6 +11994,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1658102466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658102458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1658102461}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 4-GedongKunci
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1658102461}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1682459377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12046,8 +12124,8 @@ GameObject:
   - component: {fileID: 1731843651}
   - component: {fileID: 1731843650}
   - component: {fileID: 1731843653}
-  - component: {fileID: 1731843654}
   - component: {fileID: 1731843655}
+  - component: {fileID: 1731843656}
   m_Layer: 0
   m_Name: M_HyangIbu
   m_TagString: Untagged
@@ -12185,7 +12263,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1731843654}
+  mPreview: {fileID: 1731843656}
 --- !u!4 &1731843652
 Transform:
   m_ObjectHideFlags: 0
@@ -12219,25 +12297,6 @@ MonoBehaviour:
     Padang, yang dianggap sebagai pencipta dan pemrakarsa dari Pemerajan Agung Sakti
     tersebut.
   audioDeskripsi: {fileID: 8300000, guid: 955a4149e899c7a42990cd38caeff646, type: 3}
---- !u!114 &1731843654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731843648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1731843651}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6-HyangIbu
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1731843651}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1731843655
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12334,6 +12393,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1731843656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731843648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1731843651}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 6-HyangIbu
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1731843651}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1767066735
 GameObject:
   m_ObjectHideFlags: 0
@@ -12346,8 +12424,8 @@ GameObject:
   - component: {fileID: 1767066738}
   - component: {fileID: 1767066737}
   - component: {fileID: 1767066740}
-  - component: {fileID: 1767066741}
   - component: {fileID: 1767066742}
+  - component: {fileID: 1767066743}
   m_Layer: 0
   m_Name: M_BaleBanten
   m_TagString: Untagged
@@ -12485,7 +12563,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1767066741}
+  mPreview: {fileID: 1767066743}
 --- !u!4 &1767066739
 Transform:
   m_ObjectHideFlags: 0
@@ -12518,25 +12596,6 @@ MonoBehaviour:
   deskripsi: "Tempat untuk menaruh perlengkapan bebantenan untuk upacara Hindu di
     Bali.\r"
   audioDeskripsi: {fileID: 8300000, guid: c122deeb3a5955c42b312f56c0e541ba, type: 3}
---- !u!114 &1767066741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767066735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1767066738}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 11-BaleBanten
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1767066738}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1767066742
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12633,6 +12692,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1767066743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767066735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1767066738}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 11-BaleBanten
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1767066738}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1858416966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12732,6 +12810,83 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1858416966}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1864768792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1864768793}
+  - component: {fileID: 1864768795}
+  - component: {fileID: 1864768794}
+  m_Layer: 5
+  m_Name: ImgNamaInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1864768793
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864768792}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 428439482}
+  m_Father: {fileID: 337705837}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -544.7417, y: -114.07239}
+  m_SizeDelta: {x: 595.8011, y: 55.9943}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1864768794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864768792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1864768795
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864768792}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1877068522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12843,8 +12998,8 @@ GameObject:
   - component: {fileID: 1881199851}
   - component: {fileID: 1881199850}
   - component: {fileID: 1881199853}
-  - component: {fileID: 1881199854}
   - component: {fileID: 1881199855}
+  - component: {fileID: 1881199856}
   m_Layer: 0
   m_Name: M_BalePemangku
   m_TagString: Untagged
@@ -12982,7 +13137,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1881199854}
+  mPreview: {fileID: 1881199856}
 --- !u!4 &1881199852
 Transform:
   m_ObjectHideFlags: 0
@@ -13015,25 +13170,6 @@ MonoBehaviour:
   deskripsi: Tempat pemangku agama (pinandita) menghaturkan persembahan Yadnya kepada
     tuhan.
   audioDeskripsi: {fileID: 8300000, guid: 6e8f9e155c851474781a9552a2eb3719, type: 3}
---- !u!114 &1881199854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881199848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1881199851}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 20-BalePemangku
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1881199851}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1881199855
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13130,6 +13266,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1881199856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881199848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1881199851}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 20-BalePemangku
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1881199851}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1925653046
 GameObject:
   m_ObjectHideFlags: 0
@@ -13142,8 +13297,8 @@ GameObject:
   - component: {fileID: 1925653049}
   - component: {fileID: 1925653048}
   - component: {fileID: 1925653051}
-  - component: {fileID: 1925653052}
   - component: {fileID: 1925653053}
+  - component: {fileID: 1925653054}
   m_Layer: 0
   m_Name: M_RatuAnom
   m_TagString: Untagged
@@ -13281,7 +13436,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1925653052}
+  mPreview: {fileID: 1925653054}
 --- !u!4 &1925653050
 Transform:
   m_ObjectHideFlags: 0
@@ -13314,25 +13469,6 @@ MonoBehaviour:
   deskripsi: Pelinggih yang didedikasikan khusus untuk memuja Ida Batara Lanang Dawan,
     sebagai putra dari Ida Batara Sakti.
   audioDeskripsi: {fileID: 8300000, guid: 469acec24125f904a9440df9a9c7c90f, type: 3}
---- !u!114 &1925653052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925653046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1925653049}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5-RatuAnom
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1925653049}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1925653053
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13429,6 +13565,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1925653054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925653046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1925653049}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 5-RatuAnom
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1925653049}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1984265161
 GameObject:
   m_ObjectHideFlags: 0
@@ -13441,8 +13596,8 @@ GameObject:
   - component: {fileID: 1984265164}
   - component: {fileID: 1984265163}
   - component: {fileID: 1984265166}
-  - component: {fileID: 1984265167}
   - component: {fileID: 1984265168}
+  - component: {fileID: 1984265169}
   m_Layer: 0
   m_Name: M_RatuGedeGangga
   m_TagString: Untagged
@@ -13580,7 +13735,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1984265167}
+  mPreview: {fileID: 1984265169}
 --- !u!4 &1984265165
 Transform:
   m_ObjectHideFlags: 0
@@ -13612,25 +13767,6 @@ MonoBehaviour:
   nama: Ratu Gede Gangga
   deskripsi: Tempat persinggahan untuk tamu merajan sebagai manifestasi tuhan lainnya.
   audioDeskripsi: {fileID: 8300000, guid: 9a821b61a47d2cb40837059cfa8c2c78, type: 3}
---- !u!114 &1984265167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984265161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1984265164}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 25-RatuGedeGangga
-  mDatasetName: Vuforia/MerajanAgung.xml
-  mCastedBehaviour: {fileID: 1984265164}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!82 &1984265168
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13727,6 +13863,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1984265169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984265161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1984265164}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 25-RatuGedeGangga
+  mDatasetName: Vuforia/MerajanAgung.xml
+  mCastedBehaviour: {fileID: 1984265164}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &2035055129
 PrefabInstance:
   m_ObjectHideFlags: 0

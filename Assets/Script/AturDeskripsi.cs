@@ -7,7 +7,7 @@ public class AturDeskripsi : MonoBehaviour
     private GameObject pelinggih;
     private int hitungMarker;
     [SerializeField] int jmlMarker;
-    [SerializeField] private Text txNama, txDesk;
+    [SerializeField] private Text txNama, txDesk, txNamaInfo;
     public AudioSource audioSource;
 
     public GameObject penanda;
@@ -112,6 +112,7 @@ public class AturDeskripsi : MonoBehaviour
     {
         txNama.transform.parent.gameObject.SetActive(b);
         txDesk.transform.parent.gameObject.SetActive(b);
+        txNamaInfo.transform.parent.gameObject.SetActive(b);
     }
 
     void Update()
@@ -134,6 +135,7 @@ public class AturDeskripsi : MonoBehaviour
 
             txNama.text = pelinggih.GetComponent<Pelinggih>().GetNama();
             txDesk.text = pelinggih.GetComponent<Pelinggih>().GetDeskripsi();
+            txNamaInfo.text = pelinggih.GetComponent<Pelinggih>().GetNama();
         }
     }
 }
