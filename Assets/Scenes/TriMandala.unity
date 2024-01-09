@@ -531,7 +531,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ARNista
+          m_StringArgument: NistaMandalaAR
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 432498629}
@@ -797,7 +797,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ARUtama
+          m_StringArgument: UtamaMandalaAR
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 568868442}
@@ -1034,7 +1034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.0398125, y: 0.06677778}
   m_AnchorMax: {x: 0.9475625, y: 0.8437778}
-  m_AnchoredPosition: {x: -2.2797852, y: -0.8763428}
+  m_AnchoredPosition: {x: -2.2797852, y: -0.8764038}
   m_SizeDelta: {x: -2.5600586, y: -0.61720276}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587336575
@@ -1184,9 +1184,9 @@ GameObject:
   - component: {fileID: 1117997823}
   - component: {fileID: 1117997822}
   - component: {fileID: 1117997821}
-  - component: {fileID: 1117997826}
   - component: {fileID: 1117997825}
   - component: {fileID: 1117997824}
+  - component: {fileID: 1117997826}
   m_Layer: 5
   m_Name: beranda
   m_TagString: Untagged
@@ -1358,7 +1358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  animasiAwal: TombolBeranda
+  animasiAwal: InBeranda
   animasiKlik: KlikBeranda
 --- !u!95 &1117997826
 Animator:
@@ -1370,7 +1370,7 @@ Animator:
   m_GameObject: {fileID: 1117997817}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2a06ca2583bf4c84eb46a04a6b4cc010, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6fe3d6c3552aec24eb16b1a6b20bb863, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1804,7 +1804,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ARMadya
+          m_StringArgument: MadyaMandalaAR
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1545440133}

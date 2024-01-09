@@ -35,6 +35,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ModeAR.unity
     guid: 6806df242f5043548ae9368db7a64585
+  - enabled: 1
+    path: Assets/Scenes/UtamaMandalaAR.unity
+    guid: 305a45b3fae25b64687ee9cc8c2ca7ce
+  - enabled: 1
+    path: Assets/Scenes/MadyaMandalaAR.unity
+    guid: 0c243747457a4e747bfdcdb40fd90552
+  - enabled: 1
+    path: Assets/Scenes/NistaMandalaAR.unity
+    guid: fcd4b823b8d50974ab268c9665bd819f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 89a6d18d3df8d3e4fa917b0f9a963bc0,
       type: 2}

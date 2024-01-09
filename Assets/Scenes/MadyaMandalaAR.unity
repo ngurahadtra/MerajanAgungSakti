@@ -1960,26 +1960,6 @@ MonoBehaviour:
   TempatSpawn:
   - {fileID: 2145878840}
   Pelinggih:
-  - {fileID: 919132149155446097, guid: 66f8393d8260c4c479a3228eb5d7c467, type: 3}
-  - {fileID: 919132149155446097, guid: 142df6110b0744e48ad768544db8cfec, type: 3}
-  - {fileID: 919132149155446097, guid: 3d7db0084e3caa549ae1d636ff9bb657, type: 3}
-  - {fileID: 919132149155446097, guid: b3f311495dbc3004796622dc62342f20, type: 3}
-  - {fileID: 919132149155446097, guid: 58548e4d549121c4dbc6ec2f542e19a1, type: 3}
-  - {fileID: 919132149155446097, guid: cd1f9a1b38f293b458ea1d873540e6d5, type: 3}
-  - {fileID: 919132149155446097, guid: 42e66033b32cea540bc5d7cc0bc51de4, type: 3}
-  - {fileID: 919132149155446097, guid: f44a75108686f7644b1b532c500b95c9, type: 3}
-  - {fileID: 919132149155446097, guid: fb571df65738f014dad3cf4418598f43, type: 3}
-  - {fileID: 919132149155446097, guid: 6755be62356be7e4dab26e7e9a99b960, type: 3}
-  - {fileID: 919132149155446097, guid: e801d36dcbb5108488d7478c2eeccbec, type: 3}
-  - {fileID: 919132149155446097, guid: 0d401aa2585f5534cad7bad366cec9ea, type: 3}
-  - {fileID: 919132149155446097, guid: 46c0c805ad6bdfd46b31244e87a00867, type: 3}
-  - {fileID: 919132149155446097, guid: 6e8729487d42a3048b809ac3f5daff72, type: 3}
-  - {fileID: 919132149155446097, guid: da2abec978170eb4caf7293be71e30d0, type: 3}
-  - {fileID: 919132149155446097, guid: 6faa6a67218163347a2b3053a6c1b27b, type: 3}
-  - {fileID: 919132149155446097, guid: b085648b95549ea4aa69c91145337420, type: 3}
-  - {fileID: 919132149155446097, guid: 9ecbbdf78c6cbfc4ebbf16853c014e60, type: 3}
-  - {fileID: 919132149155446097, guid: f34c631f9c2f6fd478daac8e76e21812, type: 3}
-  - {fileID: 919132149155446097, guid: a488c4e769acccc4f881b8f85e647c81, type: 3}
   - {fileID: 919132149155446097, guid: a94ab70eaca2de44ca8a4744dd07f98c, type: 3}
   - {fileID: 919132149155446097, guid: 5835b7ce0dba76f4f864faca13436ba9, type: 3}
   - {fileID: 919132149155446097, guid: 1c40a10c0e6e6a445826ea1ac0bc0f93, type: 3}
@@ -1987,35 +1967,11 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 9940e1adf7bd3704896b7a64915e41b7, type: 3}
   - {fileID: 919132149155446097, guid: 9c3be466cb744b343906bc0ed1e729a2, type: 3}
   - {fileID: 919132149155446097, guid: c42f906603dc5a846a4b7a885d2819e6, type: 3}
-  - {fileID: 919132149155446097, guid: 382a2223ae0824a41b09e65965536c8f, type: 3}
-  - {fileID: 919132149155446097, guid: 3167d8be321848140b24ae1e5306605a, type: 3}
-  - {fileID: 919132149155446097, guid: 69200ff7153046348adeae05289d2936, type: 3}
-  - {fileID: 919132149155446097, guid: c5e242dbc53e3cb4e81d2a46f57faaa3, type: 3}
   penanda: {fileID: 1572553327}
   board: {fileID: 1085842842}
   tombolKanan: {fileID: 873770521}
   tombolKiri: {fileID: 1802870397}
   customScales:
-  - {x: 11, y: 11.25029, z: 11}
-  - {x: 11, y: 11, z: 11}
-  - {x: 5.52, y: 4.851118, z: 1.411159}
-  - {x: 8.38, y: 8.125141, z: 9.597629}
-  - {x: 18, y: 18, z: 18}
-  - {x: 13, y: 13, z: 13}
-  - {x: 18, y: 18, z: 18}
-  - {x: 7, y: 7, z: 7}
-  - {x: 6, y: 10.94846, z: 0.5781075}
-  - {x: 7, y: 6.794937, z: 10.72972}
-  - {x: 0.32, y: 0.3963422, z: 0.9609784}
-  - {x: 16, y: 16, z: 16.58265}
-  - {x: 23, y: 21.80918, z: 11.25955}
-  - {x: 20, y: 18.45709, z: 9.148147}
-  - {x: 20, y: 20, z: 5.322827}
-  - {x: 20, y: 20, z: 5.173222}
-  - {x: 25, y: 24.91554, z: 8.725407}
-  - {x: 16, y: 15.80697, z: 15.80697}
-  - {x: 16, y: 16, z: 16}
-  - {x: 23, y: 23, z: 23}
   - {x: 9, y: 7.257958, z: 4.938286}
   - {x: 10, y: 8.064398, z: 5.486984}
   - {x: 5, y: 5, z: 5}
@@ -2023,32 +1979,8 @@ MonoBehaviour:
   - {x: 12, y: 12, z: 12}
   - {x: 2.42, y: 2.42, z: 2.42}
   - {x: 9, y: 9.197317, z: 8.400669}
-  - {x: 7, y: 7, z: 7}
-  - {x: 6, y: 6, z: 6}
-  - {x: 7, y: 7, z: 7}
-  - {x: 2.12, y: 2.12, z: 2.12}
   jmlMarker: 1
   namaObjek:
-  - Padmasana
-  - Meru Tumpang Tiga
-  - Pengayatan Kahyangan Tiga
-  - Gedong Kunci
-  - Ratu Anom
-  - Hyang Ibu
-  - Kemulan
-  - Bale Pelawatan
-  - Bale Gong
-  - Bale Pengrauhan
-  - Bale Banten
-  - Bale Piasan
-  - Taksu Agung
-  - Manjang Sakaluang
-  - Pengayatan Pura Batukaru
-  - Pengayatan Pura Sakenan
-  - Pengayatan Pura Uluwatu
-  - Pelik Sari Kauh
-  - Pelik Sari Kangin
-  - Bale Pemangku
   - Betara Nini
   - Piasan Jaba Tengah
   - Bale Pesanekan
@@ -2056,31 +1988,7 @@ MonoBehaviour:
   - Ratu Gede Gangga
   - Wisnu (Sumur)
   - Aling-Aling
-  - Ratu Ngurah Ebuh
-  - Piasan Jaba Sisi
-  - Bale  Gong Jaba
-  - Bale  Kulkul
   audioObjek:
-  - {fileID: 8300000, guid: a14b7fd4f3089784e85849b4174fb354, type: 3}
-  - {fileID: 8300000, guid: a82c05cac4f5faf40986eea4f73dce34, type: 3}
-  - {fileID: 8300000, guid: eebf12aca601f294480fe77f04405615, type: 3}
-  - {fileID: 8300000, guid: 36513c3ab73c27746898fe1555392f3a, type: 3}
-  - {fileID: 8300000, guid: d006a9c9a884c094a9c2f8f5a5c1b311, type: 3}
-  - {fileID: 8300000, guid: 3d969669691faca469b9d74d92f7e38c, type: 3}
-  - {fileID: 8300000, guid: 9920173bb46eda14985cbe6e62c5f117, type: 3}
-  - {fileID: 8300000, guid: 14f71dcd6359b8c41bc525561dc08e18, type: 3}
-  - {fileID: 8300000, guid: 5266a3eb45a73a34fbf504453256d737, type: 3}
-  - {fileID: 8300000, guid: 651d49fb543faec4bbef39402ec16d38, type: 3}
-  - {fileID: 8300000, guid: 38f4bfab759982d43a2c3b4943ffbb74, type: 3}
-  - {fileID: 8300000, guid: 23eb82d37928bbe459e24a49ab3e5fb1, type: 3}
-  - {fileID: 8300000, guid: 9a0f27e890401ea4891d24e0cea01556, type: 3}
-  - {fileID: 8300000, guid: 373312d7c9ed78648a68d56681cc2669, type: 3}
-  - {fileID: 8300000, guid: 8c676d40473a3034ba36da415412470b, type: 3}
-  - {fileID: 8300000, guid: e458074867cd52143b8c09d6ec644236, type: 3}
-  - {fileID: 8300000, guid: fa285d2e8f3ef014485585228a018aa9, type: 3}
-  - {fileID: 8300000, guid: 37cbad81dee77d74bab3e4a1489491aa, type: 3}
-  - {fileID: 8300000, guid: 4a0e28eb981dbc346b735fdc01c7758e, type: 3}
-  - {fileID: 8300000, guid: 44e98007b77b7df458fb7b28a2eb3286, type: 3}
   - {fileID: 8300000, guid: bc25236900eafe84f8058a1f447a7f05, type: 3}
   - {fileID: 8300000, guid: 23eb82d37928bbe459e24a49ab3e5fb1, type: 3}
   - {fileID: 8300000, guid: 55dd973698becf946845e643edb1701c, type: 3}
@@ -2088,10 +1996,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18e02beaa230b414ab001536b033b845, type: 3}
   - {fileID: 8300000, guid: d1cf467a61c4edd43bc82ee69561356f, type: 3}
   - {fileID: 8300000, guid: abf228fc786c2224c91a990a46524573, type: 3}
-  - {fileID: 8300000, guid: 1bdd3735897fb0d45838906eac24dbb5, type: 3}
-  - {fileID: 8300000, guid: 23eb82d37928bbe459e24a49ab3e5fb1, type: 3}
-  - {fileID: 8300000, guid: 5b9b6aa05197cea40b0ea3d7d9907e42, type: 3}
-  - {fileID: 8300000, guid: 60c79083cd787424e8222cbe03533da0, type: 3}
   txNama: {fileID: 1419040913}
 --- !u!1 &1238222573
 GameObject:
@@ -2357,7 +2261,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59f3a2edd5588ca449447aa6ca3e553b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0839d689ef64a5d47b32c8c5db8e2532, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2668,7 +2572,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '[Arahkan Kamera ke Marker Utama Mandala]'
+  m_Text: '[Arahkan Kamera ke Marker Madya Mandala]'
 --- !u!222 &1572553329
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2694,8 +2598,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000040054, y: 0}
-  m_SizeDelta: {x: 847.0746, y: 95.507}
+  m_AnchoredPosition: {x: -0.000009059906, y: 0}
+  m_SizeDelta: {x: 857.071, y: 95.507}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1596487038
 GameObject:
@@ -2710,7 +2614,7 @@ GameObject:
   - component: {fileID: 1596487039}
   - component: {fileID: 1596487042}
   m_Layer: 0
-  m_Name: Utama
+  m_Name: Madya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2799,7 +2703,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: UtamaMandala
+  mTrackableName: MadyaMandala
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/MerajanAgung.xml
   mAspectRatio: 1.4145143
@@ -2841,7 +2745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1596487040}
   mHiddenRoot: {fileID: 0}
-  mTargetName: UtamaMandala
+  mTargetName: MadyaMandala
   mDatasetName: Vuforia/MerajanAgung.xml
   mCastedBehaviour: {fileID: 1596487040}
   mMeshFilter: {fileID: 0}

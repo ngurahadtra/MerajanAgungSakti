@@ -86,8 +86,7 @@ public class AturTriMandala : MonoBehaviour
                 {
                     Destroy(bendaSebelumnya);
                 }
-            }
-            return;                    
+            }                    
     }
 
     public void AdaMarker()
@@ -95,12 +94,14 @@ public class AturTriMandala : MonoBehaviour
         SpawnObject();
         SetUI(true);
         penanda.SetActive(false);
-        // Ambil atau tambahkan AudioSource pada objek
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
             audioSource = gameObject.AddComponent<AudioSource>();
         }
+        
+            audioSource.clip = audioObjek[ID];
+            audioSource.Play();
 
     }
 
@@ -108,10 +109,12 @@ public class AturTriMandala : MonoBehaviour
     {
         SetUI(true);
         penanda.SetActive(false);
+        
         if (ID >= 0 && ID < Pelinggih.Length && TempatSpawn.Length > 0)
         {
             benda = Instantiate(Pelinggih[ID]);
             GameObject tempat = TempatSpawn[0];
+            txNama.text = namaObjek[ID];
 
             if (customScales.Length == Pelinggih.Length)
             {
@@ -150,6 +153,7 @@ public class AturTriMandala : MonoBehaviour
         {
             Debug.LogError("ID diluar rentang atau array TempatSpawn kosong.");
         }
+        
     }
 
        public void GantiPelinggih(bool Kanan)
@@ -202,6 +206,7 @@ public class AturTriMandala : MonoBehaviour
 
         // Mainkan audio baru
         audioSource.Play();
+        
 
         // Set nilai pada UI Text txNama
         txNama.text = namaObjek[ID];
