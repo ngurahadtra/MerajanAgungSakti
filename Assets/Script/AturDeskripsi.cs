@@ -22,6 +22,7 @@ public class AturDeskripsi : MonoBehaviour
     public Button soundOff;
     public Button soundOn;
     public Button denahAR;
+    public AudioSource audioSourceMusik;
 
     private void Start()
     {
@@ -31,6 +32,7 @@ public class AturDeskripsi : MonoBehaviour
         soundOff.onClick.AddListener(soundOffOnClick);
         soundOn.onClick.AddListener(soundOnOnClick);
         denahAR.onClick.AddListener(DenahAROnClick);
+        audioSourceMusik = GameObject.Find("Musik").GetComponent<AudioSource>();
     }
 
     private void InfoPelinggihOnClick()
@@ -38,8 +40,10 @@ public class AturDeskripsi : MonoBehaviour
         if (pelinggih != null)
         {
             AudioClip audioClip = pelinggih.GetComponent<Pelinggih>().GetAudioDeskripsi();
-            if (audioClip != null)
+            if (audioClip != null && audioSourceMusik != null)
             {
+                audioSourceMusik.volume = 0.3f;
+
                 audioSource.clip = audioClip;
                 audioSource.Play();
             }
@@ -59,8 +63,11 @@ public class AturDeskripsi : MonoBehaviour
         if (pelinggih != null)
         {
             AudioClip audioClip = pelinggih.GetComponent<Pelinggih>().GetAudioDeskripsi();
-            if (audioClip != null)
+            if (audioClip != null && audioSourceMusik != null)
             {
+             // Mengembalikan volume pada objek "Musik" ke 1
+                audioSourceMusik.volume = 1.0f;
+
                 audioSource.clip = audioClip;
                 audioSource.Stop();
             }
