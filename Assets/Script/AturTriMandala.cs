@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AturTriMandala : MonoBehaviour
 {
@@ -21,10 +22,11 @@ public class AturTriMandala : MonoBehaviour
     [SerializeField] private AudioClip[] audioObjek;
     [SerializeField] private Text txNama;
 
-    private AudioSource audioSource; // Menyimpan komponen AudioSource
-    private GameObject benda; // Menyimpan objek yang dibuat
+    private AudioSource audioSource;
+    private GameObject benda;
     private bool[] isMarker;
     private int hitungMarker;
+    private string currentSceneName;
 
     private void Awake()
     {
@@ -37,6 +39,7 @@ public class AturTriMandala : MonoBehaviour
         isMarker = new bool[jmlMarker];
         audioSource = GetComponent<AudioSource>();
         SetAllPelinggihTags();
+        currentSceneName = SceneManager.GetActiveScene().name;
 
         // Tambahkan listener untuk tombol kanan
         if (tombolKanan != null)
@@ -49,9 +52,8 @@ public class AturTriMandala : MonoBehaviour
         {
             tombolKiri.onClick.AddListener(() => GantiPelinggih(false));
         }
-
     }
-    
+
     private void SetUI(bool isActive)
     {
         tombolKanan.gameObject.SetActive(isActive);
@@ -72,21 +74,21 @@ public class AturTriMandala : MonoBehaviour
 
     public void TidakAdaMarker()
     {
-            SetUI(false);
-            penanda.SetActive(true);
+        SetUI(false);
+        penanda.SetActive(true);
 
-            if (audioSource.isPlaying)
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+        GameObject[] BendaSebelumnyaArray = GameObject.FindGameObjectsWithTag("ObyekPelinggih");
+        foreach (GameObject bendaSebelumnya in BendaSebelumnyaArray)
+        {
+            if (bendaSebelumnya != benda)
             {
-                audioSource.Stop();
+                Destroy(bendaSebelumnya);
             }
-            GameObject[] BendaSebelumnyaArray = GameObject.FindGameObjectsWithTag("ObyekPelinggih");
-            foreach (GameObject bendaSebelumnya in BendaSebelumnyaArray)
-            {
-                if (bendaSebelumnya != benda)
-                {
-                    Destroy(bendaSebelumnya);
-                }
-            }                    
+        }
     }
 
     public void AdaMarker()
@@ -99,17 +101,16 @@ public class AturTriMandala : MonoBehaviour
         {
             audioSource = gameObject.AddComponent<AudioSource>();
         }
-        
-            audioSource.clip = audioObjek[ID];
-            audioSource.Play();
 
+        audioSource.clip = audioObjek[ID];
+        audioSource.Play();
     }
 
     public void SpawnObject()
     {
         SetUI(true);
         penanda.SetActive(false);
-        
+
         if (ID >= 0 && ID < Pelinggih.Length && TempatSpawn.Length > 0)
         {
             benda = Instantiate(Pelinggih[ID]);
@@ -131,13 +132,17 @@ public class AturTriMandala : MonoBehaviour
             benda.transform.SetParent(tempat.transform, false);
             benda.transform.localPosition = new Vector3(0, 0, 0);
 
-            if (ID == 27 || ID == 28)
+            // Atur rotasi berdasarkan nama scene
+            if (currentSceneName == "NistaMandalaAR")
             {
-                benda.transform.localRotation = Quaternion.Euler(0, 180, 0);
-            }
-            else
-            {
-                benda.transform.localRotation = Quaternion.Euler(-90, 0, 0);
+                if (ID == 0 || ID == 1)
+                {
+                    benda.transform.localRotation = Quaternion.Euler(0, 180, 0);
+                }
+                else
+                {
+                    benda.transform.localRotation = Quaternion.Euler(-90, 0, 0);
+                }
             }
 
             GameObject[] BendaSebelumnyaArray = GameObject.FindGameObjectsWithTag("ObyekPelinggih");
@@ -153,18 +158,15 @@ public class AturTriMandala : MonoBehaviour
         {
             Debug.LogError("ID diluar rentang atau array TempatSpawn kosong.");
         }
-        
     }
 
-       public void GantiPelinggih(bool Kanan)
+    public void GantiPelinggih(bool Kanan)
     {
-        // Hentikan audio sebelumnya
         if (audioSource.isPlaying)
         {
             audioSource.Stop();
         }
 
-        // Dapatkan nama dan audio sebelum objek dihancurkan
         string namaSebelumnya = namaObjek[ID];
         AudioClip audioSebelumnya = audioObjek[ID];
 
@@ -191,7 +193,6 @@ public class AturTriMandala : MonoBehaviour
             }
         }
 
-        // Hancurkan objek sebelumnya
         GameObject[] BendaSebelumnyaArray = GameObject.FindGameObjectsWithTag("ObyekPelinggih");
         foreach (GameObject bendaSebelumnya in BendaSebelumnyaArray)
         {
@@ -200,20 +201,15 @@ public class AturTriMandala : MonoBehaviour
 
         SpawnObject();
 
-        // Set nama dan audio pada AudioSource
         benda.name = namaObjek[ID];
         audioSource.clip = audioObjek[ID];
 
-        // Mainkan audio baru
         audioSource.Play();
-        
-
-        // Set nilai pada UI Text txNama
         txNama.text = namaObjek[ID];
     }
 
-     private void Update()
-    {       
+    private void Update()
+    {
         if (tombolKanan != null && tombolKanan.interactable && Input.GetButtonDown("kanan btn"))
         {
             GantiPelinggih(true);

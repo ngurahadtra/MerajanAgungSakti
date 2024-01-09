@@ -1980,17 +1980,6 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 9ecbbdf78c6cbfc4ebbf16853c014e60, type: 3}
   - {fileID: 919132149155446097, guid: f34c631f9c2f6fd478daac8e76e21812, type: 3}
   - {fileID: 919132149155446097, guid: a488c4e769acccc4f881b8f85e647c81, type: 3}
-  - {fileID: 919132149155446097, guid: a94ab70eaca2de44ca8a4744dd07f98c, type: 3}
-  - {fileID: 919132149155446097, guid: 5835b7ce0dba76f4f864faca13436ba9, type: 3}
-  - {fileID: 919132149155446097, guid: 1c40a10c0e6e6a445826ea1ac0bc0f93, type: 3}
-  - {fileID: 919132149155446097, guid: 5919645644650b5448005c598ae38287, type: 3}
-  - {fileID: 919132149155446097, guid: 9940e1adf7bd3704896b7a64915e41b7, type: 3}
-  - {fileID: 919132149155446097, guid: 9c3be466cb744b343906bc0ed1e729a2, type: 3}
-  - {fileID: 919132149155446097, guid: c42f906603dc5a846a4b7a885d2819e6, type: 3}
-  - {fileID: 919132149155446097, guid: 382a2223ae0824a41b09e65965536c8f, type: 3}
-  - {fileID: 919132149155446097, guid: 3167d8be321848140b24ae1e5306605a, type: 3}
-  - {fileID: 919132149155446097, guid: 69200ff7153046348adeae05289d2936, type: 3}
-  - {fileID: 919132149155446097, guid: c5e242dbc53e3cb4e81d2a46f57faaa3, type: 3}
   penanda: {fileID: 1572553327}
   board: {fileID: 1085842842}
   tombolKanan: {fileID: 873770521}
@@ -2016,17 +2005,6 @@ MonoBehaviour:
   - {x: 16, y: 15.80697, z: 15.80697}
   - {x: 16, y: 16, z: 16}
   - {x: 23, y: 23, z: 23}
-  - {x: 9, y: 7.257958, z: 4.938286}
-  - {x: 10, y: 8.064398, z: 5.486984}
-  - {x: 5, y: 5, z: 5}
-  - {x: 6, y: 3.920628, z: 1.102256}
-  - {x: 12, y: 12, z: 12}
-  - {x: 2.42, y: 2.42, z: 2.42}
-  - {x: 9, y: 9.197317, z: 8.400669}
-  - {x: 7, y: 7, z: 7}
-  - {x: 6, y: 6, z: 6}
-  - {x: 7, y: 7, z: 7}
-  - {x: 2.12, y: 2.12, z: 2.12}
   jmlMarker: 1
   namaObjek:
   - Padmasana
@@ -2049,17 +2027,6 @@ MonoBehaviour:
   - Pelik Sari Kauh
   - Pelik Sari Kangin
   - Bale Pemangku
-  - Betara Nini
-  - Piasan Jaba Tengah
-  - Bale Pesanekan
-  - Pewaregan
-  - Ratu Gede Gangga
-  - Wisnu (Sumur)
-  - Aling-Aling
-  - Ratu Ngurah Ebuh
-  - Piasan Jaba Sisi
-  - Bale  Gong Jaba
-  - Bale  Kulkul
   audioObjek:
   - {fileID: 8300000, guid: a14b7fd4f3089784e85849b4174fb354, type: 3}
   - {fileID: 8300000, guid: a82c05cac4f5faf40986eea4f73dce34, type: 3}
@@ -2081,17 +2048,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 37cbad81dee77d74bab3e4a1489491aa, type: 3}
   - {fileID: 8300000, guid: 4a0e28eb981dbc346b735fdc01c7758e, type: 3}
   - {fileID: 8300000, guid: 44e98007b77b7df458fb7b28a2eb3286, type: 3}
-  - {fileID: 8300000, guid: bc25236900eafe84f8058a1f447a7f05, type: 3}
-  - {fileID: 8300000, guid: 23eb82d37928bbe459e24a49ab3e5fb1, type: 3}
-  - {fileID: 8300000, guid: 55dd973698becf946845e643edb1701c, type: 3}
-  - {fileID: 8300000, guid: a8cc162c3461c2a48b3314e2505bd4fd, type: 3}
-  - {fileID: 8300000, guid: 18e02beaa230b414ab001536b033b845, type: 3}
-  - {fileID: 8300000, guid: d1cf467a61c4edd43bc82ee69561356f, type: 3}
-  - {fileID: 8300000, guid: abf228fc786c2224c91a990a46524573, type: 3}
-  - {fileID: 8300000, guid: 1bdd3735897fb0d45838906eac24dbb5, type: 3}
-  - {fileID: 8300000, guid: 23eb82d37928bbe459e24a49ab3e5fb1, type: 3}
-  - {fileID: 8300000, guid: 5b9b6aa05197cea40b0ea3d7d9907e42, type: 3}
-  - {fileID: 8300000, guid: 60c79083cd787424e8222cbe03533da0, type: 3}
   txNama: {fileID: 1419040913}
 --- !u!1 &1238222573
 GameObject:
