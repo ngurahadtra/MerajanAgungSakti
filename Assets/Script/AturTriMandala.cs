@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AturTriMandala : MonoBehaviour
 {
@@ -8,9 +9,22 @@ public class AturTriMandala : MonoBehaviour
     public int ID;
     public GameObject[] TempatSpawn;
     public GameObject[] Pelinggih;
+    public GameObject penanda;
+    public GameObject board;
+    public Button tombolKanan;
+    public Button tombolKiri;
 
-    // Tambahkan array untuk menyimpan skala khusus untuk setiap objek
     public Vector3[] customScales;
+
+    [SerializeField] int jmlMarker;
+    [SerializeField] private string[] namaObjek;
+    [SerializeField] private AudioClip[] audioObjek;
+    [SerializeField] private Text txNama;
+
+    private AudioSource audioSource; // Menyimpan komponen AudioSource
+    private GameObject benda; // Menyimpan objek yang dibuat
+    private bool[] isMarker;
+    private int hitungMarker;
 
     private void Awake()
     {
@@ -20,11 +34,31 @@ public class AturTriMandala : MonoBehaviour
     void Start()
     {
         ID = 0;
-        SetAllPelinggihTags(); // Panggil metode ini untuk mengatur tag pada semua objek Pelinggih
-        SpawnObject();
+        isMarker = new bool[jmlMarker];
+        audioSource = GetComponent<AudioSource>();
+        SetAllPelinggihTags();
+
+        // Tambahkan listener untuk tombol kanan
+        if (tombolKanan != null)
+        {
+            tombolKanan.onClick.AddListener(() => GantiPelinggih(true));
+        }
+
+        // Tambahkan listener untuk tombol kiri
+        if (tombolKiri != null)
+        {
+            tombolKiri.onClick.AddListener(() => GantiPelinggih(false));
+        }
+
+    }
+    
+    private void SetUI(bool isActive)
+    {
+        tombolKanan.gameObject.SetActive(isActive);
+        tombolKiri.gameObject.SetActive(isActive);
+        board.gameObject.SetActive(isActive);
     }
 
-    // Metode untuk mengatur tag pada semua objek Pelinggih
     private void SetAllPelinggihTags()
     {
         foreach (GameObject pelinggihObj in Pelinggih)
@@ -36,17 +70,51 @@ public class AturTriMandala : MonoBehaviour
         }
     }
 
+    public void TidakAdaMarker()
+    {
+            SetUI(false);
+            penanda.SetActive(true);
+
+            if (audioSource.isPlaying)
+            {
+                audioSource.Stop();
+            }
+            GameObject[] BendaSebelumnyaArray = GameObject.FindGameObjectsWithTag("ObyekPelinggih");
+            foreach (GameObject bendaSebelumnya in BendaSebelumnyaArray)
+            {
+                if (bendaSebelumnya != benda)
+                {
+                    Destroy(bendaSebelumnya);
+                }
+            }
+            return;                    
+    }
+
+    public void AdaMarker()
+    {
+        SpawnObject();
+        SetUI(true);
+        penanda.SetActive(false);
+        // Ambil atau tambahkan AudioSource pada objek
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+    }
+
     public void SpawnObject()
     {
+        SetUI(true);
+        penanda.SetActive(false);
         if (ID >= 0 && ID < Pelinggih.Length && TempatSpawn.Length > 0)
         {
-            GameObject benda = Instantiate(Pelinggih[ID]);
+            benda = Instantiate(Pelinggih[ID]);
             GameObject tempat = TempatSpawn[0];
 
-            // Periksa apakah customScales memiliki ukuran yang sesuai dengan jumlah objek
             if (customScales.Length == Pelinggih.Length)
             {
-                // Set skala sesuai dengan nilai customScales yang sesuai dengan ID objek
                 benda.transform.localScale = customScales[ID];
             }
             else
@@ -60,19 +128,15 @@ public class AturTriMandala : MonoBehaviour
             benda.transform.SetParent(tempat.transform, false);
             benda.transform.localPosition = new Vector3(0, 0, 0);
 
-            // Pengecekan apakah objek adalah elemen nomor 27 atau 28
             if (ID == 27 || ID == 28)
             {
-                // Jika ya, atur rotasi sesuai kebutuhan
                 benda.transform.localRotation = Quaternion.Euler(0, 180, 0);
             }
             else
             {
-                // Jika tidak, atur rotasi standar
                 benda.transform.localRotation = Quaternion.Euler(-90, 0, 0);
             }
 
-            // Hancurkan semua objek dengan tag "ObyekPelinggih" kecuali yang baru saja dibuat
             GameObject[] BendaSebelumnyaArray = GameObject.FindGameObjectsWithTag("ObyekPelinggih");
             foreach (GameObject bendaSebelumnya in BendaSebelumnyaArray)
             {
@@ -88,20 +152,18 @@ public class AturTriMandala : MonoBehaviour
         }
     }
 
-    private void Update()
+       public void GantiPelinggih(bool Kanan)
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        // Hentikan audio sebelumnya
+        if (audioSource.isPlaying)
         {
-            GantiPelinggih(true);
+            audioSource.Stop();
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            GantiPelinggih(false);
-        }
-    }
 
-    public void GantiPelinggih(bool Kanan)
-    {
+        // Dapatkan nama dan audio sebelum objek dihancurkan
+        string namaSebelumnya = namaObjek[ID];
+        AudioClip audioSebelumnya = audioObjek[ID];
+
         if (Kanan)
         {
             if (ID >= Pelinggih.Length - 1)
@@ -124,6 +186,37 @@ public class AturTriMandala : MonoBehaviour
                 ID--;
             }
         }
+
+        // Hancurkan objek sebelumnya
+        GameObject[] BendaSebelumnyaArray = GameObject.FindGameObjectsWithTag("ObyekPelinggih");
+        foreach (GameObject bendaSebelumnya in BendaSebelumnyaArray)
+        {
+            Destroy(bendaSebelumnya);
+        }
+
         SpawnObject();
+
+        // Set nama dan audio pada AudioSource
+        benda.name = namaObjek[ID];
+        audioSource.clip = audioObjek[ID];
+
+        // Mainkan audio baru
+        audioSource.Play();
+
+        // Set nilai pada UI Text txNama
+        txNama.text = namaObjek[ID];
+    }
+
+     private void Update()
+    {       
+        if (tombolKanan != null && tombolKanan.interactable && Input.GetButtonDown("kanan btn"))
+        {
+            GantiPelinggih(true);
+        }
+
+        if (tombolKiri != null && tombolKiri.interactable && Input.GetButtonDown("kiri btn"))
+        {
+            GantiPelinggih(false);
+        }
     }
 }
