@@ -1960,6 +1960,7 @@ MonoBehaviour:
   TempatSpawn:
   - {fileID: 2145878840}
   Pelinggih:
+  - {fileID: 919132149155446097, guid: 494920d49c56b614dae2c6ef9558cd3f, type: 3}
   - {fileID: 919132149155446097, guid: 66f8393d8260c4c479a3228eb5d7c467, type: 3}
   - {fileID: 919132149155446097, guid: 142df6110b0744e48ad768544db8cfec, type: 3}
   - {fileID: 919132149155446097, guid: 3d7db0084e3caa549ae1d636ff9bb657, type: 3}
@@ -1985,6 +1986,7 @@ MonoBehaviour:
   tombolKanan: {fileID: 873770521}
   tombolKiri: {fileID: 1802870397}
   customScales:
+  - {x: 0.025, y: 0.025, z: 0.025}
   - {x: 11, y: 11.25029, z: 11}
   - {x: 11, y: 11, z: 11}
   - {x: 5.52, y: 4.851118, z: 1.411159}
@@ -2007,6 +2009,7 @@ MonoBehaviour:
   - {x: 23, y: 23, z: 23}
   jmlMarker: 1
   namaObjek:
+  - Utama Mandala
   - Padmasana
   - Meru Tumpang Tiga
   - Pengayatan Kahyangan Tiga
@@ -2028,6 +2031,7 @@ MonoBehaviour:
   - Pelik Sari Kangin
   - Bale Pemangku
   audioObjek:
+  - {fileID: 8300000, guid: 88c47689e34b04b48b35534d82881ca6, type: 3}
   - {fileID: 8300000, guid: a14b7fd4f3089784e85849b4174fb354, type: 3}
   - {fileID: 8300000, guid: a82c05cac4f5faf40986eea4f73dce34, type: 3}
   - {fileID: 8300000, guid: eebf12aca601f294480fe77f04405615, type: 3}

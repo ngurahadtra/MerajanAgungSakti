@@ -1956,10 +1956,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b759bfef76a454a44a9456cd04b941c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: 0
+  ID: 4
   TempatSpawn:
   - {fileID: 2145878840}
   Pelinggih:
+  - {fileID: 919132149155446097, guid: d3ca681a589bb894abc2c754869f8f87, type: 3}
   - {fileID: 919132149155446097, guid: 382a2223ae0824a41b09e65965536c8f, type: 3}
   - {fileID: 919132149155446097, guid: 3167d8be321848140b24ae1e5306605a, type: 3}
   - {fileID: 919132149155446097, guid: 69200ff7153046348adeae05289d2936, type: 3}
@@ -1969,17 +1970,20 @@ MonoBehaviour:
   tombolKanan: {fileID: 873770521}
   tombolKiri: {fileID: 1802870397}
   customScales:
+  - {x: 0.02, y: 0.02, z: 0.02}
   - {x: 7, y: 7, z: 7}
   - {x: 6, y: 6, z: 6}
   - {x: 7, y: 7, z: 7}
   - {x: 2.12, y: 2.12, z: 2.12}
   jmlMarker: 1
   namaObjek:
+  - Nista Mandala
   - Ratu Ngurah Ebuh
   - Piasan Jaba Sisi
   - Bale  Gong Jaba
   - Bale  Kulkul
   audioObjek:
+  - {fileID: 8300000, guid: fb797ab98e3848342b71da27a5c0cad9, type: 3}
   - {fileID: 8300000, guid: 1bdd3735897fb0d45838906eac24dbb5, type: 3}
   - {fileID: 8300000, guid: 23eb82d37928bbe459e24a49ab3e5fb1, type: 3}
   - {fileID: 8300000, guid: 5b9b6aa05197cea40b0ea3d7d9907e42, type: 3}

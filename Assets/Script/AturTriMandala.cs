@@ -132,27 +132,19 @@ public class AturTriMandala : MonoBehaviour
             benda.transform.SetParent(tempat.transform, false);
             benda.transform.localPosition = new Vector3(0, 0, 0);
 
-            // Atur rotasi berdasarkan nama scene
             if (currentSceneName == "NistaMandalaAR")
             {
-                if (ID == 0 || ID == 1)
+                if (ID == 1 || ID == 2 || ID==0)
                 {
                     benda.transform.localRotation = Quaternion.Euler(0, 180, 0);
                 }
+            
                 else
                 {
                     benda.transform.localRotation = Quaternion.Euler(-90, 0, 0);
                 }
             }
 
-            GameObject[] BendaSebelumnyaArray = GameObject.FindGameObjectsWithTag("ObyekPelinggih");
-            foreach (GameObject bendaSebelumnya in BendaSebelumnyaArray)
-            {
-                if (bendaSebelumnya != benda)
-                {
-                    Destroy(bendaSebelumnya);
-                }
-            }
         }
         else
         {

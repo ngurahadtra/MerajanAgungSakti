@@ -1960,6 +1960,7 @@ MonoBehaviour:
   TempatSpawn:
   - {fileID: 2145878840}
   Pelinggih:
+  - {fileID: 919132149155446097, guid: 7dc2790d47e07494f92b30633145f031, type: 3}
   - {fileID: 919132149155446097, guid: a94ab70eaca2de44ca8a4744dd07f98c, type: 3}
   - {fileID: 919132149155446097, guid: 5835b7ce0dba76f4f864faca13436ba9, type: 3}
   - {fileID: 919132149155446097, guid: 1c40a10c0e6e6a445826ea1ac0bc0f93, type: 3}
@@ -1972,6 +1973,7 @@ MonoBehaviour:
   tombolKanan: {fileID: 873770521}
   tombolKiri: {fileID: 1802870397}
   customScales:
+  - {x: 0.025, y: 0.025, z: 0.025}
   - {x: 9, y: 7.257958, z: 4.938286}
   - {x: 10, y: 8.064398, z: 5.486984}
   - {x: 5, y: 5, z: 5}
@@ -1981,6 +1983,7 @@ MonoBehaviour:
   - {x: 9, y: 9.197317, z: 8.400669}
   jmlMarker: 1
   namaObjek:
+  - Madya Mandala
   - Betara Nini
   - Piasan Jaba Tengah
   - Bale Pesanekan
@@ -1989,6 +1992,7 @@ MonoBehaviour:
   - Wisnu (Sumur)
   - Aling-Aling
   audioObjek:
+  - {fileID: 8300000, guid: 737d44ee1798d4141af20019e568520b, type: 3}
   - {fileID: 8300000, guid: bc25236900eafe84f8058a1f447a7f05, type: 3}
   - {fileID: 8300000, guid: 23eb82d37928bbe459e24a49ab3e5fb1, type: 3}
   - {fileID: 8300000, guid: 55dd973698becf946845e643edb1701c, type: 3}
